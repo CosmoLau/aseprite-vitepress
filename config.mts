@@ -7,17 +7,17 @@ export default defineAdditionalConfig({
         nav: nav(),
 
         sidebar: {
-            '/en/docs/': { base: '/en/docs/', items: sidebarDocs() },
-            '/en/api/': { base: '/en/api/', items: sidebarApi() },
+            '/docs/': { base: '/docs/', items: sidebarDocs() },
+            '/api/': { base: '/api/', items: sidebarApi() },
         }
     }
 })
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: 'Home', link: '/en/' },
-        { text: 'Document', link: '/en/docs/overview' },
-        { text: 'API Refence', link: '/en/api/README' },
+        { text: 'Home', link: '/' },
+        { text: 'Document', link: '/docs/overview' },
+        { text: 'API Refence', link: '/api/README' },
     ]
 }
 
