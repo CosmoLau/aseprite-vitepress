@@ -1,6 +1,6 @@
-[submodule "en/docs"]
-	path = en/docs
+[submodule "docs"]
+	path = docs
 	url = https://github.com/CosmoLau/aseprite-docs.git
-[submodule "en/api"]
-	path = en/api
+[submodule "api"]
+	path = api
 	url = https://github.com/CosmoLau/aseprite-api.git
