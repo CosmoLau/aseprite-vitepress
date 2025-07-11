@@ -15,7 +15,7 @@ aseprite-vitepress 是使用 VitePress 对 Aseprite 官方文档进行移植的�
 git clone --recurse-submodules https://github.com/aseprite-vitepress/aseprite-vitepress.git
 ```
 
-2. 复制 `en` 目录到新的语言目录
+2. 复制 `zh` 目录到新的语言目录
 3. 翻译目录中的 `index.md` 文件
 4. 仿照 `zh/config.mts` 配置文件添加到新的语言目录
 5. 在 `config.mts` 配置文件中翻译侧边栏和导航栏等内容

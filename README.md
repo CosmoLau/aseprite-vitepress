@@ -15,7 +15,7 @@ aseprite-vitepress is a project that ports the official Aseprite documentation u
 git clone --recurse-submodules https://github.com/aseprite-vitepress/aseprite-vitepress.git
 ```
 
-2. Copy the `en` directory to a new language directory
+2. Copy the `zh` directory to a new language directory
 3. Translate the `index.md` file in the directory
 4. Add configuration file similar to `zh/config.mts` to the new language directory
 5. Translate sidebar and navigation bar contents in the `config.mts` configuration file
