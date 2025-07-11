@@ -4,14 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
     title: "Aseprite",
     description: "A VitePress Site",
-    rewrites: {
-        'en/:rest': ':rest',
-    },
+    // rewrites: {
+    //     'en/:rest': ':rest',
+    // },
     lastUpdated: true,
     cleanUrls: true,
     metaChunk: true,
-
-    
+    ignoreDeadLinks: true,
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
@@ -45,7 +44,7 @@ export default defineConfig({
     },
 
     locales: {
-        root: { label: 'English' },
+        en: { label: 'English' },
         zh: { label: '简体中文' }
     },
 })
