@@ -2,27 +2,50 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Aseprite",
-  description: "A VitePress Site",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    title: "Aseprite",
+    description: "A VitePress Site",
+    rewrites: {
+        'en/:rest': ':rest',
+    },
+    lastUpdated: true,
+    cleanUrls: true,
+    metaChunk: true,
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+    
+
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        search: {
+            provider: 'local',
+            options: {
+                locales: {
+                    zh: {
+                        translations: {
+                            button: {
+                                buttonText: '搜索文档',
+                                buttonAriaLabel: '搜索文档',
+                            },
+                            modal: {
+                                noResultsText: '无法找到相关结果',
+                                resetButtonTitle: '清除查询条件',
+                                footer: {
+                                    selectText: '选择',
+                                    navigateText: '切换'
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/CosmoLau/aseprite-vitepress' }
         ]
-      }
-    ],
+    },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    locales: {
+        root: { label: 'English' },
+        zh: { label: '简体中文' }
+    },
 })
