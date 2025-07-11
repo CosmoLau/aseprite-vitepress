@@ -8,7 +8,7 @@ aseprite-vitepress is a project that ports the official Aseprite documentation u
 
 1. Clone this repository
 
-> [!IMPORTANT] IMPORTANT
+> [!IMPORTANT]
 > This repository contains submodules. You need to use the `git clone --recurse-submodules` command to clone it.
 
 ```bash

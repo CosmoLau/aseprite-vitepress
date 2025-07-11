@@ -8,7 +8,7 @@ aseprite-vitepress 是使用 VitePress 对 Aseprite 官方文档进行移植的�
 
 1. 克隆本仓库
 
-> [!IMPORTANT] 重要
+> [!IMPORTANT]
 > 本仓库包含子模块，需要使用 `git clone --recurse-submodules` 命令克隆。
 
 ```bash
