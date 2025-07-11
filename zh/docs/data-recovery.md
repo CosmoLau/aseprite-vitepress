@@ -11,18 +11,18 @@ weeks.)
 To restore a sprite from previous sessions you have to use the
 "Recover Files" option in the "Home" tab:
 
-<p><img src="/docs/data-recovery/home-tab.png" alt="Home tab" class="x2" /></p>
+<p><img src="./data-recovery/home-tab.png" alt="Home tab" class="x2" /></p>
 
 If Aseprite crashes (wasn't closed correctly) and some sprite wasn't
 saved, you will see the "Recover Files" option as a button:
 
-<p><img src="/docs/data-recovery/home-tab-after-crash.png" alt="Home tab" class="x2" /></p>
+<p><img src="./data-recovery/home-tab-after-crash.png" alt="Home tab" class="x2" /></p>
 
 This option opens the "Recover Files" tab, where you can double-click
 an item (or select it and press "Recover Sprite") to recover a sprite
 from previous sessions:
 
-<p><img src="/docs/data-recovery/recover-files-tab.png" alt="Home tab" class="x2" /></p>
+<p><img src="./data-recovery/recover-files-tab.png" alt="Home tab" class="x2" /></p>
 
 ## Preferences
 

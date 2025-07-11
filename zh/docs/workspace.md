@@ -2,7 +2,7 @@
 
 You should become familiar with these window elements:
 
-<img src="/docs/workspace/screen.png" alt="Workspace Screenshot" class="xN" />
+<img src="./workspace/screen.png" alt="Workspace Screenshot" class="xN" />
 
 The most important elements are the
 [sprite editor](sprite-editor.md), the
