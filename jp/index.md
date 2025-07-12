@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Aseprite ドキュメント
-      link: /docs/overview
+      link: /jp/docs/overview
     # - theme: alt
     #   text: API Reference
     #   link: /api/README
