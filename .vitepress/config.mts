@@ -45,6 +45,7 @@ export default defineConfig({
 
     locales: {
         root: { label: 'English' },
-        zh: { label: '简体中文' }
+        zh: { label: '简体中文' },
+        jp: { label: '日本語' },
     },
 })
