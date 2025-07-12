@@ -32,18 +32,18 @@ This project is an **unofficial multilingual documentation website** built on `V
         <div :class='$style.card'>
             <h2 style='margin-top: 0; border: none;'>Organize Layers</h2>
             <img src='/layers.gif' alt='Organize Layers' :class='$style.cardImg'/>
-            <p><a href='/en/docs/new-layer'>Create</a>, 
-                <a href='/en/docs/copy-layer'>Copy</a>, 
-                <a href='/en/docs/move-layer'>Move</a>, Drag & Delete<a href='/en/docs/layers'>Layers</a>.
+            <p><a href='/docs/new-layer'>Create</a>, 
+                <a href='/docs/copy-layers'>Copy</a>, 
+                <a href='/docs/move-layers'>Move</a>, Drag & Delete<a href='/docs/layers'>Layers</a>.
             </p>
         </div>
         <div :class='$style.card'>
             <h2 style='margin-top: 0; border: none;'>Animate</h2>
             <img src='/frames.gif' alt='Animate' :class='$style.cardImg'/>
             <p>
-                <a href='/en/docs/new-frame'>Create</a>, 
-                <a href='/en/docs/copy-frame'>Copy</a>, 
-                <a href='/en/docs/move-frame'>Move</a>, Drag & Delete<a href='/en/docs/animation'>Frames</a>.
+                <a href='/docs/new-frame'>Create</a>, 
+                <a href='/docs/copy-frames'>Copy</a>, 
+                <a href='/docs/move-frames'>Move</a>, Drag & Delete<a href='/docs/animation'>Frames</a>.
             </p>
         </div>
         <div :class='$style.card'>
@@ -90,7 +90,7 @@ This project is an **unofficial multilingual documentation website** built on `V
         <div :class='$style.card'>
             <h2 style='margin-top: 0; border: none;'>Shading Mode</h2>
             <img src='/shading-mode.gif' alt='Shading Mode' :class='$style.cardImg'/>
-            <p>Create light and shadows with the <a href='/en/docs/shading'>shading ink</a>.</p>
+            <p>Create light and shadows with the <a href='/docs/shading'>shading ink</a>.</p>
         </div>
         <div :class='$style.card'>
             <h2 style='margin-top: 0; border: none;'>Pixel Perfect Stroke</h2>
@@ -146,7 +146,7 @@ This project is an **unofficial multilingual documentation website** built on `V
         <div :class='$style.card'>
             <h2 style='margin-top: 0; border: none;'>Automatize Image Conversions</h2>
             <img src='/cli.gif' alt='cli' :class='$style.cardImg'/>
-            <p>Integrate Aseprite in your assets pipeline with the <a href='/en/docs/cli'>command-line interface (CLI)</a>.</p>
+            <p>Integrate Aseprite in your assets pipeline with the <a href='/docs/cli'>command-line interface (CLI)</a>.</p>
         </div>
         <div :class='$style.card'>
             <h2 style='margin-top: 0; border: none;'>Create Texture Atlas</h2>

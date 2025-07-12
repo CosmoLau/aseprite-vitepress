@@ -19,7 +19,7 @@ export default defineAdditionalConfig({
         },
         editLink: {
             text: '在 GitHub 上编辑此页面',
-            pattern: 'https://github.com/aseprite/aseprite/edit/master/docs/:path',
+            pattern: 'https://github.com/CosmoLau/aseprite-vitepress/:path',
         },
         returnToTopLabel: '返回顶部',
         docFooter: {
@@ -31,7 +31,7 @@ export default defineAdditionalConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '主页', link: '/zh' },
+        { text: '主页', link: '/zh/' },
         { text: '文档', link: '/zh/docs/overview', activeMatch: '/zh/docs/' },
         { text: 'API 参考', link: '/zh/api/README', activeMatch: '/zh/api/' },
     ]

@@ -33,8 +33,8 @@ import { useData } from 'vitepress'
             <h2 style='margin-top: 0; border: none;'>组织层级</h2>
             <img src='/layers.gif' alt='层级' :class='$style.cardImg'/>
             <p><a href='/zh/docs/new-layer'>创建</a>、
-                <a href='/zh/docs/copy-layer'>复制</a>、
-                <a href='/zh/docs/move-layer'>移动</a>、
+                <a href='/zh/docs/copy-layers'>复制</a>、
+                <a href='/zh/docs/move-layers'>移动</a>、
                 拖动与删除<a href='/zh/docs/layers'>层级</a>。
             </p>
         </div>
@@ -43,8 +43,8 @@ import { useData } from 'vitepress'
             <img src='/frames.gif' alt='动画' :class='$style.cardImg'/>
             <p>
                 <a href='/zh/docs/new-frame'>创建</a>、
-                <a href='/zh/docs/copy-frame'>复制</a>、
-                <a href='/zh/docs/move-frame'>移动</a>、
+                <a href='/zh/docs/copy-frames'>复制</a>、
+                <a href='/zh/docs/move-frames'>移动</a>、
                 链接、拖动与删除<a href='/zh/docs/animation'>帧</a>或<a href='/zh/docs/cels'>单元格</a>。
             </p>
         </div>
