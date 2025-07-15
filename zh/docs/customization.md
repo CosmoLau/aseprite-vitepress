@@ -1,22 +1,20 @@
-# Customization
+# 自定义
 
-You can change the most common Aseprite configuration from these menus:
+你可以从以下菜单更改最常用的 Aseprite 配置：
 
-* *Edit > [Preferences](preferences.md)* (<kbd>Ctrl+K</kbd> key, or on macOS: <kbd>⌘K</kbd> or <kbd>⌘,</kbd>)
-* *Edit > [Keyboard Shortcuts](keyboard-shortcuts.md)* (<kbd>Ctrl+Alt+Shift+K</kbd> or <kbd>⌥⇧⌘K</kbd> on macOS)
+* *编辑 > [首选项](preferences.md)* (<kbd>Ctrl</kbd> + <kbd>K</kbd> 键，在 macOS 上：<kbd>⌘</kbd> + <kbd>K</kbd> 或 <kbd>⌘</kbd> + <kbd>,</kbd>)
+* *编辑 > [键盘快捷键](keyboard-shortcuts.md)* (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>K</kbd>，在 macOS 上：<kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>K</kbd>)
 
-Other ways of customization are more advanced and require downloading
-some file (extensions or script) and installing it from *Edit >
-Preferences > Extensions* or *File > Scripts > Open Scripts Folder*:
+其他自定义方式则更为高级，需要下载一些文件（扩展或脚本），并通过 *编辑 > 首选项 > 扩展* 或 *文件 > 脚本 > 打开脚本文件夹* 进行安装：
 
-* [Extensions](extensions.md)
-  * [Keys](extensions/keys.md)
-  * [Languages](extensions/languages.md)
-  * [Themes](extensions/themes.md)
-* [Scripting](scripting.md)
+* [扩展](extensions.md)
+  * [快捷键配置](extensions/keys.md)
+  * [语言](extensions/languages.md)
+  * [主题](extensions/themes.md)
+* [脚本](scripting.md)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Overview](overview.md)
+[概览](overview.md)

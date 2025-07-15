@@ -1,56 +1,46 @@
-# Color Mode
+# 颜色模式
 
-Aseprite supports three different kinds of color modes:
+Aseprite 支持三种不同的颜色模式：
 
 * RGB
-* Indexed
-* Grayscale
+* 索引
+* 灰度
 
-When you create a [new sprite](new-sprite.md) you have to choose one of these color
-modes. In this section you will see the details of each one.
+当你创建一个[新精灵](new-sprite.md)时，你必须选择其中一种颜色模式。在本节中，你将了解每种模式的详细信息。
 
 ## RGB
 
-![RGB Mode](color/rgb-mode.png)
+![RGB 模式](color/rgb-mode.png)
 
-RGB, or RGBA, stands for Red-Green-Blue-Alpha. Each image pixel
-contains these four components. It means that a pixel is completely
-independent from others.
+RGB 或 RGBA 是 Red（红）-Green（绿）-Blue（蓝）-Alpha（透明度）的缩写。每个图像像素
+都包含这四个分量。这意味着每个像素都完全独立于其他像素。
 
-The alpha component specifies how opaque the color is:
-`Alpha = 255` means completely opaque, and `Alpha = 0` completely
-transparent.
+Alpha 分量指定颜色的不透明度：
+`Alpha = 255` 表示完全不透明，而 `Alpha = 0` 表示完全透明。
 
-Special note: Background layer doesn't have an alpha component, so
-it will always be opaque.
+特别说明：背景图层没有 Alpha 分量，因此它始终是不透明的。
 
-## Indexed
+## 索引
 
-![Indexed Mode](color/indexed-mode.gif)
+![索引模式](color/indexed-mode.gif)
 
-In this mode each pixel has a number that references a palette
-color. Your palette can contain up to 256 colors, and each pixel
-points to one of those colors (from 0 to 255).
+在这种模式下，每个像素都有一个指向调色板中某种颜色的编号。你的调色板最多可以包含 256 种颜色，每个像素都指向其中一种颜色（编号从 0 到 255）。
 
-Unlike RGBA, if you modify the palette color, all pixels that are
-referencing that color will change their appearance.
+与 RGBA 不同的是，如果你修改调色板中的颜色，所有引用该颜色的像素外观都会发生改变。
 
-An important concept on Indexed images is that for transparent layers,
-we need a special index to act as the transparent color.
-Generally this index is 0, but you can change it
-from *Sprite > Properties* menu.
+在索引图像中，一个重要的概念是：对于透明图层，我们需要一个特殊的索引来作为透明颜色。
+通常这个索引是 0，但你可以从 *精灵 > 属性* 菜单中更改它。
 
-## Grayscale
+## 灰度
 
-![Grayscale Mode](color/gray-mode.png)
+![灰度模式](color/gray-mode.png)
 
-It's more like RGBA, just that you have two channels: Value and Alpha.
-Here 0 means black and 255 is white. The alpha channel behaves exactly
-like it does in RGBA mode.
+它更类似于 RGBA，只是它有两个通道：明度（Value）和透明度（Alpha）。
+这里 0 表示黑色，255 表示白色。透明度通道的行为与 RGBA 模式完全相同。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Color](color.md) |
-[New Sprite](new-sprite.md)
+[颜色](color.md) |
+[新建精灵](new-sprite.md)

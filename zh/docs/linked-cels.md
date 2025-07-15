@@ -1,33 +1,24 @@
-# Linked Cels
+# 链接单元格
 
-Two cels are linked when they share their image and the *xy*-coordinate.
-Linked cels looks as follow in the [timeline](timeline.md):
+当两个单元格共享它们的图像和 *xy* 坐标时，它们就被链接起来了。
+链接的单元格在[时间轴](timeline.md)中显示如下：
 
-![Linked Cels](linked-cels/linked-cels.png)
+![链接单元格](linked-cels/linked-cels.png)
 
-When you modify one of these cels, all linked cels are modified. In
-this way you can propagate the same change into several
-frames. E.g. If you have a static background, you would prefer linked
-cels, so you can make changes just in one cel to view the change in
-the whole animation.
+当你修改这些单元格中的一个时，所有链接的单元格都会被修改。通过这种方式，你可以将相同的更改传播到多个帧中。例如，如果你有一个静态背景，你会希望使用链接的单元格，这样你只需修改一个单元格，就能在整个动画中看到更改。
 
-To create linked cels you have to
-[copy cels](copy-cels.md)
-in a [continuous layer](continuous-layers.md)
-(i.e. a layer with the Continuous icon ![Continuous icon](continuous-layers/continuous-layer.png)).
+要创建链接的单元格，你必须在[连续图层](continuous-layers.md)（即带有连续图标 ![连续图标](continuous-layers/continuous-layer.png) 的图层）中[复制单元格](copy-cels.md)。
 
-## Unlink Cels
+## 断开链接单元格
 
-There is a way to unlink cels using right-click and *Unlink* option in
-the timeline:
+有一种方法可以断开链接单元格，在时间轴中右键单击并选择 *断开链接* 选项：
 
-![Unlink Cels](linked-cels/unlink-cels.gif)
+![断开链接单元格](linked-cels/unlink-cels.gif)
 
-Unlinked cels will contain their own copy of the image. So now if you
-modify them the change will not be propagated to other cels.
+断开链接的单元格将包含其自身的图像副本。因此，现在如果你修改这些单元格，更改将不会传播到其他单元格。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Continuous Layers](continuous-layers.md)
+[连续图层](continuous-layers.md)

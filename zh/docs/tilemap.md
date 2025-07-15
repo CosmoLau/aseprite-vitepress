@@ -1,48 +1,46 @@
-# Tilemap
+# 瓦片地图
 
-Since **Aseprite v1.3** you can create *tilemaps* with *tilesets*.
+自 **Aseprite v1.3** 起，你可以使用 *瓦片地图* 创建 *图块地图*。
 
-What is a **tilemap**? A tilemap is a special kind of layer where each grid cell on the canvas is a reference to a tile (a little image) in its *tileset*. You can create a new tilemap from *Layer > New > New Tilemap Layer* or pressing <kbd>Space+N</kbd>.
+什么是 **瓦片地图**？瓦片地图是一种特殊的图层，画布上的每个网格单元格都是对其 *图块集* 中某个图块（小图像）的引用。你可以通过 *图层 > 新建 > 新建瓦片地图图层* 或按 <kbd>Space</kbd> + <kbd>N</kbd> 来创建一个新的瓦片地图。
 
-What is a **tileset**? As its name says, it's a set of tiles, just like the color palette which is a set of colors. Each tile has an index and can be re-used in different position in the canvas on each tilemap grid cell.
+什么是 **图块集**？顾名思义，它是一组图块，就像调色板是一组颜色一样。每个图块都有一个索引，并且可以在每个瓦片地图网格单元格的画布中的不同位置重复使用。
 
-Example:
+示例：
 
-![Tilemap Example](tilemap/tilemap-example.png)
+![瓦片地图示例](tilemap/tilemap-example.png)
 
-## Similarities with Indexed Color
+## 与索引颜色的相似之处
 
-We can compare a tilemap with an [indexed image](color-mode.md#indexed):
+我们可以将瓦片地图与[索引图像](color-mode.md#indexed)进行比较：
 
-| Tilemaps | Indexed Color
+| 瓦片地图 | 索引颜色
 | -------- | -------------
-| **Tile**: One little image that can be reused in several places of a Tilemap Layer | **Palette entry**: One RGBA color that can be reused in several places of an Indexed Image.
-| **Tileset**: A collection of tiles of the same size. | **Palette**: A collection of RGBA colors (palette entries).
-| **Tilemap Layer**: A 2D image where each pixel is a “tile index” that references a tile in the tileset. Each tilemap has a specific tileset associated. | **Indexed Image**: A 2D image where each pixel references a palette entry with an index.
-| **Tile Index**: A value from 0 to N (where N=number of tiles in the tileset, and 0 is the *empty tile*) | **Palette Index**: A value from 0 to N-1 (where N=number of palette entries)
+| **图块**：一个小图像，可以在瓦片地图图层的多个位置重复使用 | **调色板条目**：一种 RGBA 颜色，可以在索引图像的多个位置重复使用。
+| **图块集**：一组大小相同的图块。 | **调色板**：一组 RGBA 颜色（调色板条目）。
+| **瓦片地图图层**：一种二维图像，其中每个像素都是一个“图块索引”，该索引引用图块集中的一个图块。每个瓦片地图都关联一个特定的图块集。 | **索引图像**：一种二维图像，其中每个像素都使用一个索引引用一个调色板条目。
+| **图块索引**：一个从 0 到 N 的值（其中 N = 图块集中的图块数量，0 表示 *空图块*） | **调色板索引**：一个从 0 到 N-1 的值（其中 N = 调色板条目的数量）
 
-## Modes
+## 模式
 
-When you are in a Tilemap Layer, there are 2 main modes, you can switch between these modes pressing <kbd>Space+Tab</kbd>:
+当你处于瓦片地图图层时，有两种主要模式，你可以通过按 <kbd>Space</kbd> + <kbd>Tab</kbd> 在这些模式之间切换：
 
-| Mode |   | Description
+| 模式 |   | 描述
 | ---- | - | -----------
-| *Draw Pixels* | ![](tilemap/pixels-mode.png) |  Draws pixels in each tile, i.e. modifies the tile content/pixels. This is like when you modify regular layers (you modify pixels). |
-| *Draw Tiles* | ![](tilemap/tiles-mode.png) | Puts/gets tiles directly (doesn't modifying tiles content, modifies the tilemap information) |
+| *绘制像素* | ![](tilemap/pixels-mode.png) | 在每个图块中绘制像素，即修改图块内容/像素。这类似于修改常规图层（修改像素）。 |
+| *绘制图块* | ![](tilemap/tiles-mode.png) | 直接放置/获取图块（不修改图块内容，修改瓦片地图信息） |
 
-When we draw pixels in a tilemap, we are modifying the content of each
-tile, but there are three special modes that indicate how we should
-handle these modifications between tiles:
+当我们在瓦片地图中绘制像素时，我们正在修改每个图块的内容，但有三种特殊模式指示我们应该如何处理图块之间的这些修改：
 
-| Draw Pixels  |   | Description
+| 绘制像素 |   | 描述
 | ------------ | - | -----------
-| ![](tilemap/manual-mode.png) | *Manual* | It will modify each tile content, without re-ordering the tileset. Useful if you have already a fixed tileset and don’t want to change the position of each tile in the tileset. <kbd>Space+1</kbd>
-| ![](tilemap/auto-mode.png) | *Auto* | It tries to create new tiles (or reuse existing tiles) when you draw, and will erase unused tiles if they are not found in any tilemap referencing the tileset. It’s the default mode because it tries to simulate a regular layer adjusting the whole tileset automatically. <kbd>Space+2</kbd>
-| ![](tilemap/stack-mode.png) | *Stack* | It will create a new tile for each modification that is done in an existing tile, without modifying existing tiles, and stacking all the new ones. <kbd>Space+3</kbd>
+| ![](tilemap/manual-mode.png) | *手动* | 它会修改每个图块的内容，但不会重新排序图块集。如果你已有一个固定的图块集，并且不想更改图块集中每个图块的位置，此模式会很有用。<kbd>Space</kbd> + <kbd>1</kbd>
+| ![](tilemap/auto-mode.png) | *自动* | 绘制时，它会尝试创建新图块（或重用现有图块），并且如果在引用该图块集的任何瓦片地图中都找不到未使用的图块，就会将其删除。这是默认模式，因为它会尝试模拟常规图层，自动调整整个图块集。<kbd>Space</kbd> + <kbd>2</kbd>
+| ![](tilemap/stack-mode.png) | *堆叠* | 它会为现有图块的每次修改创建一个新图块，不会修改现有图块，而是将所有新图块堆叠起来。<kbd>Space</kbd> + <kbd>3</kbd>
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Color Mode](color-mode.md) |
-[Layers](layers.md)
+[颜色模式](color-mode.md) |
+[图层](layers.md)

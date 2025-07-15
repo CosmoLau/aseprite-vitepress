@@ -1,59 +1,45 @@
-# Exporting
+# 导出
 
-Generally you will use *File > Save* to [save your work](save.md) with full
-information [as an `.aseprite` file](files.md#aseprite). Then you can export
-your sprite for your own game, website, application, etc. using the *File > Export > Export As*
-menu option (<kbd>Ctrl+Alt+Shift+S</kbd> key or <kbd>⌥⇧⌘S</kbd> on macOS)
-to convert your sprite into a `.gif` file or a sequence of `.png` files.
+通常，你会使用 *文件 > 保存* 以 [保存你的作品](save.md)，该操作会保存完整的信息，
+并 [保存为 `.aseprite` 文件](files.md#aseprite)。然后，你可以使用 *文件 > 导出 > 另存为* 
+菜单选项（快捷键 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd>，macOS 系统为 <kbd>⌥</kbd> + <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>S</kbd>）将你的精灵导出，
+用于你自己的游戏、网站、应用程序等。这样可以将精灵转换为 `.gif` 文件或一系列 `.png` 文件。
 
-*File > Export > Export As* will remember the latest options you've used in case
-that you want to save the copy again.
+*文件 > 导出 > 另存为* 会记住你最近使用过的选项，以便你再次保存副本。
 
-## Export as a sequence of images
+## 导出为图像序列
 
-You can save the whole animation as a sequence specifying a file name
-with a number and a file type for static images. E.g. `frame1.png`
-where `1` specifies the number of the first frame, and `.png` the
-static file type used to save each frame. See how to
-[load a sequence of images](open.md#loading-image-sequences).
+你可以通过指定一个包含编号和静态图像文件类型的文件名，将整个动画保存为序列。例如 `frame1.png`，其中 `1` 表示第一帧的编号，`.png` 是用于保存每一帧的静态文件类型。请查看如何[加载图像序列](open.md#loading-image-sequences)。
 
-If you specify other file name like `frame001.png` file names will be
-like `frame001.png`, `frame002.png`, `frame003.png`, etc.
+如果你指定其他文件名，例如 `frame001.png`，那么生成的文件名将会是
+`frame001.png`、`frame002.png`、`frame003.png` 等。
 
-## Export Just One Frame
+## 仅导出一帧
 
-From *File > Export* you can export one frame (or one layer, or a set of selected frames, etc.)
-changing *Frames* field to *Selected frames*:
+从 *文件 > 导出* 中，你可以导出一帧（或一个图层，或一组选定的帧等），只需将 *帧* 字段更改为 *选定的帧*：
 
-![File > Export > Export As > Selected Frame](exporting/file-export-sel-frame.png)
+![文件 > 导出 > 导出为 > 选中的帧](exporting/file-export-sel-frame.png)
 
-## Automatic Resize on Export
+## 导出时自动调整尺寸
 
-The *File > Export* dialog contains a special *Resize* field so you
-can save your copy with other scale. E.g. It's useful to upload your
-animation for social networks (like Twitter), that needs higher scales
-(e.g. 400% of your original sprite size):
+*文件 > 导出* 对话框中包含一个特殊的 *调整尺寸* 字段，你可以使用该字段以其他缩放比例保存副本。例如，当你需要将动画上传到社交网络（如 Twitter）时，这个功能就很有用，因为这些平台可能需要更高的缩放比例（例如原始精灵尺寸的 400%）：
 
-![File > Export > Resize](exporting/file-export-resize.png)
+![文件 > 导出 > 调整尺寸](exporting/file-export-resize.png)
 
-## Other Export Options
+## 其他导出选项
 
-There are other useful options in *File > Export*:
+*文件 > 导出* 中还有其他实用选项：
 
-![File > Export menu option](exporting/file-export.png)
+![文件 > 导出 菜单选项](exporting/file-export.png)
 
-* *Animation Direction*: You can export your animation in Forward,
-  Backward, or Ping-Pong mode.
-* *Apply pixel ratio*: In case your sprite has a special pixel aspect
-  ratio (like 2:1), checking this option will export the sprite
-  applying the pixel aspect ratio to the final result.
-* *Export for Twitter*: Adjusts the animation to avoid some problems
-  on Twitter reproducing the last frame with an invalid delay.
+* *动画方向*: 你可以以正向、反向或往复模式导出动画。
+* *应用像素比例*: 如果你的精灵具有特殊的像素宽高比（例如 2:1），勾选此选项将在导出精灵时将像素宽高比应用到最终结果中。
+* *为 Twitter 导出*: 调整动画以避免 Twitter 在重现最后一帧时出现无效延迟的问题。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Save](save.md) |
-[Sprite sheets](sprite-sheet.md) |
-[Command Line Interface](cli.md)
+[保存](save.md) |
+[精灵表](sprite-sheet.md) |
+[命令行界面](cli.md)

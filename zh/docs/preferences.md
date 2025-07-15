@@ -1,113 +1,60 @@
-# Preferences
+# 首选项
 
-You can change the configuration of Aseprite from the *Edit >
-Preferences* menu or pressing <kbd>Ctrl+K</kbd> key (or <kbd>⌘K</kbd>
-or <kbd>⌘,</kbd> on macOS). In case that you are looking to configure
-the keyboard shorcuts, that's done through
-the *Edit > [Keyboard Shortcuts](keyboard-shortcuts.md)* menu option.
+你可以通过 *编辑 > 首选项* 菜单，或按下 <kbd>Ctrl</kbd> + <kbd>K</kbd> 键（在 macOS 上为 <kbd>⌘</kbd> + <kbd>K</kbd> 或 <kbd>⌘</kbd> + <kbd>,</kbd>）来更改 Aseprite 的配置。如果你想配置键盘快捷键，可以通过 *编辑 > [键盘快捷键](keyboard-shortcuts.md)* 菜单选项进行操作。
 
-The Preferences dialog is divided in several sections:
+首选项对话框被分为几个部分：
 
-## General
+## 通用
 
-* **Screen Scaling**: Changes the size of each pixel inside every
-  window of Aseprite. It's 200% by default, which means that each
-  pixel in the window will be represented with a 2x2 square on the
-  screen. When using large monitors (e.g. 4K monitors) you can try
-  changing to 300% or 400%. If you want to see each pixel of your
-  sprite represented as one pixel on the screen, you should set this
-  option to 100%, in this case it's highly probable that you will want
-  to increase the next option (*UI Elements Scaling*) to 200% or more
-  if needed.
-* **UI Elements Scaling**: It's an extra scale applied only to elements
-  of the User Interface (buttons, labels, etc.), but without modifying
-  the scale of the sprite editor. It's 100% by default.
-* **Light** | **Dark** options: Since v1.3 you can quickly change between
-  a Light version of the Aseprite theme, and a Dark one.
-* **Language**: The language of the User Interface, English by default,
-  but you can get some translations contributed by users from:
+* **屏幕缩放**: 更改 Aseprite 每个窗口内每个像素的大小。默认值为 200%，这意味着窗口中的每个像素将在屏幕上以 2x2 的方块表示。使用大型显示器（例如 4K 显示器）时，你可以尝试将其更改为 300% 或 400%。如果你希望精灵图的每个像素在屏幕上以一个像素的形式显示，你应该将此选项设置为 100%，在这种情况下，你很可能需要根据需要将下一个选项（*UI 元素缩放*）增加到 200% 或更高。
+* **UI 元素缩放**: 仅对用户界面元素（按钮、标签等）应用的额外缩放，不会修改精灵编辑器的缩放比例。默认值为 100%。
+* **Light** | **Dark** 选项：自 v1.3 版本起，你可以快速在 Aseprite 的浅色主题和深色主题之间切换。
+* **语言**：用户界面的语言，默认值为英语，
+  但你可以从以下链接获取一些用户贡献的翻译：
   https://github.com/aseprite/languages
-* **Show Aseprite menu bar** (only available on macOS): The [Aseprite
-  menu bar](menu-bar.md) is visible by default on Windows and Linux:
+* **显示 Aseprite 菜单栏**（仅适用于 macOS）：[Aseprite 菜单栏](menu-bar.md) 在 Windows 和 Linux 上默认可见：
 
-    ![Aseprite Menu Bar](menu-bar/aseprite-menubar.png)
+    ![Aseprite 菜单栏](menu-bar/aseprite-menubar.png)
 
-  But it's hidden by default on macOS, as in macOS you can use the
-  system menu bar:
+  但在 macOS 上默认是隐藏的，因为在 macOS 上你可以使用系统菜单栏：
 
-    ![macOS Menu Bar](menu-bar/macos-menubar.png)
+    ![macOS 菜单栏](menu-bar/macos-menubar.png)
 
-* **Expand menu bar items on mouseover**: With this option checked,
-  when the mouse is above the [Aseprite menu bar](menu-bar.md), a menu
-  will be opened automatically. By default this is disabled, so you
-  have to click a menu to open it.
-* **Draw a separation between each palette entry**:
-* **Share crash data with Aseprite developers**: When Aseprite crashes
-  (unexpectedly closes) you will be asked to share some crash
-  information automatically in the future privately with the Aseprite
-  team. Aseprite doesn't do this by default (this option is unchecked
-  by default), so you have to give your consent to share this
-  information.  More details in
+* **鼠标悬停时展开菜单栏项目**：勾选此选项后，当鼠标移动到 [Aseprite 菜单栏](menu-bar.md) 上方时，菜单将自动展开。默认情况下此功能处于禁用状态，因此你需要点击菜单才能打开它。
+* **在每个调色板条目之间绘制分隔线**：
+* **与 Aseprite 开发者分享崩溃数据**：当 Aseprite 崩溃（意外关闭）时，系统会请求你在未来自动私下与 Aseprite 团队分享一些崩溃信息。Aseprite 默认不会执行此操作（此选项默认未勾选），因此你需要同意分享这些信息。更多详细信息请查看
   [#2857](https://github.com/aseprite/aseprite/issues/2857)
 
-## Alerts
+## 警告
 
-Several (non-undoable) actions on Aseprite show a warning message with
-a *Don't show this alert again* checkbox:
+在 Aseprite 中，有几个（不可撤销的）操作会显示警告消息，并带有一个 *不再显示此警告* 的复选框：
 
-![Alert example](preferences/show-alert.png)
+![警告示例](preferences/show-alert.png)
 
-You can re-enable these dialogs from *Edit > Preferences > Alerts*.
+你可以通过 *编辑 > 首选项 > 警告* 重新启用这些对话框。
 
-## Editor
+## 编辑器
 
-Options to change the general behavior of the [Sprite Editor](sprite-editor.md):
+更改 [精灵编辑器](sprite-editor.md) 一般行为的选项：
 
-* **Zoom with scroll wheel**: Checked by default, you zoom with the
-  [mouse wheel](mouse-wheel.md) (if you uncheck this, the vertical scroll will be the
-  default action for the mouse wheel).
-* **Zoom sliding two fingers up or down**: This is available on macOS
-  only, and if you enable it you will be able to zoom using two
-  fingers on your MacBook trackpad.
-* **Zoom from center with scroll wheel**: Check this if you want to
-  [zoom](zoom.md) from the center of the sprite editor instead zooming
-  from the mouse position when the mouse wheel is used.
-* **Zoom from center with keys**: Zoom from the center of the sprite
-  instead of the mouse position when you use the keys
-  [to zoom](zoom.md) <kbd>1</kbd>, <kbd>2</kbd>, <kbd>3</kbd>, etc.
-* **Show scroll-bars in sprite editor**: Uncheck this to hide the
-  scroll bars on all sprite editors.
-* **Auto-scroll on editor edges**: With this option checked, when you
-  are [drawing](drawing.md) (have the mouse button pressed) and the
-  mouse touches the edges of the sprite editor, it will scrolls
-  automatically.
-* **Auto-fit on screen when a sprite is opened**: When it's checked,
-  after you create a new sprite or open an existing one, the editor
-  will show the whole image fitting it in the available space of the
-  canvas. When this option is unchecked (the default option), the
-  initial zoom level will be 100% by default.
-* **Preview straight line immediately on Pencil tool**: When you use
-  the ![Pencil icon](tools/pencil-tool.png) Pencil tool, pressing
-  the <kbd>Shift</kbd> key will draw a straight line from the last painted
-  point. With this option checked, you will see the line preview
-  immediately after pressing the <kbd>Shift</kbd> key (instead of
-  waiting for the mouse button). If this is too annoying for you, you
-  can uncheck the option.
-* **Discard custom brush when eyedropper is used**: If you create a
-  custom brush with *Edit > New Brush* option, using the eyedropper
-  ![Eyedropper tool icon](tools/eyedropper-tool.png) tool will change
-  the color of your brush. Checking this option, after picking a color
-  with the eyedropper, the custom brush will be completely discarded
-  and a regular brush with the picked color will be selected.
-* **Downsampling**: The algorithm to use to show the sprite when the
-  zoom level is <= 50%. By default it's *Bilinear mipmapping*.
-* **Right-click**: You can customize what specific action to do with
-  the [right-click](right-click.md).
+* **使用鼠标滚轮缩放**：默认已勾选，你可以使用 [鼠标滚轮](mouse-wheel.md) 进行缩放（如果取消勾选，鼠标滚轮的默认操作将变为垂直滚动）。
+* **双指上下滑动缩放**：此功能仅适用于 macOS，启用后，你可以在 MacBook 的触控板上使用双指进行缩放。
+* **使用鼠标滚轮从中心缩放**：如果你希望在使用鼠标滚轮时从精灵编辑器的中心进行 [缩放](zoom.md)，而不是从鼠标位置进行缩放，请勾选此选项。
+* **使用按键从中心缩放**：当你使用 [缩放](zoom.md) 按键 <kbd>1</kbd>、<kbd>2</kbd>、<kbd>3</kbd> 等时，将从精灵的中心而不是鼠标位置进行缩放。
+* **在精灵编辑器中显示滚动条**：取消勾选此选项可隐藏所有精灵编辑器中的滚动条。
+* **编辑器边缘自动滚动**：勾选此选项后，当你正在[绘制](drawing.md)（按住鼠标按钮）且鼠标触及精灵编辑器边缘时，编辑器将自动滚动。
+* **打开精灵时自动适配屏幕**：勾选此选项后，
+  在创建新精灵或打开现有精灵图时，编辑器会在画布的可用空间内显示完整图像。
+  当此选项未勾选（默认选项）时，初始缩放级别默认将为 100%。
+* **铅笔工具立即预览直线**：当你使用 ![铅笔图标](tools/pencil-tool.png) 铅笔工具时，按下 <kbd>Shift</kbd> 键将从最后绘制的点开始绘制一条直线。勾选此选项后，按下 <kbd>Shift</kbd> 键后你将立即看到直线预览（无需等待按下鼠标按钮）。如果你觉得这很烦人，可以取消勾选此选项。
+* **使用吸管工具时丢弃自定义笔刷**：如果你使用 *编辑 > 新建笔刷* 选项创建了一个自定义笔刷，使用 ![吸管工具图标](tools/eyedropper-tool.png) 吸管工具会更改笔刷的颜色。勾选此选项后，使用吸管工具选取颜色后，自定义笔刷将被完全丢弃，并且会选择一个带有所选颜色的常规笔刷。
+* **降采样**：当缩放级别 ≤ 50% 时，用于显示精灵的算法。默认值为 *双线性纹理映射*。
+* **右键点击**：你可以自定义 [右键点击](right-click.md) 时执行的具体操作。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Preferences Folder](preferences-folder.md) |
-[Reset Preferences](reset-preferences.md) |
-[Customization](customization.md)
+[首选项文件夹](preferences-folder.md) |
+[重置首选项](reset-preferences.md) |
+[自定义](customization.md)

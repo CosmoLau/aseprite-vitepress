@@ -1,105 +1,80 @@
-# Layers
+# 图层
 
-One sprite can be subdivided into several layers. You can see them
-in the [timeline](timeline.md):
+一个精灵可以细分为多个图层。你可以在[时间轴](timeline.md)中查看它们：
 
-![Layer in timeline](layers/layer-in-timeline.png)
+![时间轴中的图层](layers/layer-in-timeline.png)
 
-Each layer has several options:
+每个图层都有多个选项：
 
-![Layer icons](layers/layer-options.png)
+![图层图标](layers/layer-options.png)
 
-*Layer Name*: Text to identify this layer.  You can change the layer
-name by double-clicking the layer, or from the *Layer > Properties* menu (<kbd>Shift+P</kbd> key).
+*图层名称*: 用于标识此图层的文本。你可以通过双击图层，或从 *图层 > 属性* 菜单（<kbd>Shift</kbd> + <kbd>P</kbd> 键）更改图层名称。
 
-*Cels*: A set of [cels](cel.md), frames that contain something
-visible for this specific layer in the specific frame.
+*单元格*: 一组 [单元格](cel.md)，即包含特定帧中此特定图层可见内容的帧。
 
-*Visible*: It indicates if the layer is visible ![Visible layer icon](layers/visible-layer.png)
-or hidden ![Hidden layer icon](layers/hidden-layer.png). You can switch the layer visibility
-using *Layer > Visible* menu or <kbd>Shift+X</kbd> key.
+*可见性*: 代表图层是可见的 ![可见图层图标](layers/visible-layer.png)
+还是隐藏的 ![隐藏图层图标](layers/hidden-layer.png)。你可以使用 *图层 > 可见* 菜单或 <kbd>Shift</kbd> + <kbd>X</kbd> 键切换图层的可见性。
 
-*Locked*: If the layer is locked ![Locked layer icon](layers/locked-layer.png), you cannot draw on it.
-By default all layers are unlocked/editable ![Editable layer icon](layers/editable-layer.png).
+*锁定*: 如果图层已锁定 ![锁定图层图标](layers/locked-layer.png)，则无法在其上绘制。
+默认情况下，所有图层均为未锁定/可编辑状态 ![可编辑图层图标](layers/editable-layer.png)。
 
-*Continuous*: This option is used to indicate what kind
-of [cels](cel.md) you prefer when they are created for this
-specific layer. See the [Continuous Layers](continuous-layers.md)
-section for more information.
+*连续*: 此选项用于指定为此特定图层创建 [单元格](cel.md) 时你倾向的类型。有关更多信息，请参阅 [连续图层](continuous-layers.md) 部分。
 
-### Common Operations
+### 常见操作
 
-* [Add new layer](new-layer.md)
-* [Move layers](move-layers.md)
-* [Copy layers](copy-layers.md)
+* [添加新图层](new-layer.md)
+* [移动图层](move-layers.md)
+* [复制图层](copy-layers.md)
 
-## Background Layer
+## 背景图层
 
-The background layer is an opaque layer (without alpha/transparent
-component) that cannot be moved. It's created by default when you
-select an opaque color in the *File > New* window, or when you open a
-file (e.g. a `.png` file) that doesn't contain the alpha component.
+背景图层是一个不透明的图层（没有 Alpha 通道/透明组件），且无法移动。当你在 *文件 > 新建* 窗口中选择不透明颜色时，或者打开一个不包含 Alpha 通道的文件（例如 `.png` 文件）时，会默认创建背景图层。
 
-A sprite can contain only one background layer and it's always at the
-bottom of the layers stack in the [timeline](timeline.md).
+一个精灵只能包含一个背景图层，并且它总是位于[时间轴](timeline.md)中图层堆栈的最底部。
 
-When you select a portion of the background layer and clear it (using
-*Edit > Clear* menu), the selection will be cleared with the active
-[background color](color-bar.md).
+当你选择背景图层的一部分并清除它（使用 *编辑 > 清除* 菜单）时，所选区域将用活动的 [背景颜色](color-bar.md) 清除。
 
-## Transparent Layers
+## 透明图层
 
-All layers with an alpha channel are called transparent layers.
-You can have several of these in the same sprite.
-You can stack them as you want using the [timeline](timeline.md).
-And you can displace these layers using the [Move tool](move-tool.md) ![Move tool icon](tools/move-tool.png)).
+所有带有 Alpha 通道的图层都称为透明图层。
+你可以在同一个精灵中拥有多个透明图层。
+你可以使用[时间轴](timeline.md)按自己的需求堆叠这些图层。
+并且你可以使用[移动工具](move-tool.md) ![移动工具图标](tools/move-tool.png)移动这些图层。
 
-When you select a portion of a transparent layer and clear it (using
-*Edit > Clear* menu), the selection will be cleared with
-[transparent color](transparent-color.md).
+当你选择透明图层的一部分并清除它（使用 *编辑 > 清除* 菜单）时，所选区域将被清除为 [透明颜色](transparent-color.md)。
 
-You can use *Layer > New > New Layer* menu or <kbd>Shift+N</kbd> to
-create a new transparent layer.
+你可以使用 *图层 > 新建 > 新建图层* 菜单或按 <kbd>Shift</kbd> + <kbd>N</kbd> 来创建一个新的透明图层。
 
-## Background from Layer
+## 从图层转换为背景
 
-If there is no background layer, you can convert any transparent
-layer to the background using the *Layer > Convert To > Background*
-menu. All transparent pixels will be filled with the active
-[background color](color-bar.md#background-color).
+如果没有背景图层，你可以使用 *图层 > 转换为 > 背景* 菜单将任意透明图层转换为背景图层。所有透明像素都将填充为活动的 [背景颜色](color-bar.md#background-color)。
 
-> Previously, on Aseprite v1.2 the option was *Layer > Background from Layer*
+> 在之前的 Aseprite v1.2 中，该选项为 *图层 > 从图层创建背景*
 
-## Layer from Background
+## 从背景转换为图层
 
-If you want to convert the background to a transparent layer
-(e.g. because you want to move it with the [Move tool](move-tool.md)
-![Move tool icon](tools/move-tool.png)), you can use the
-*Layer > Convert To > Layer* menu.
+如果你想将背景图层转换为透明图层（例如，你想使用[移动工具](move-tool.md) ![移动工具图标](tools/move-tool.png) 移动它），可以使用 *图层 > 转换为 > 图层* 菜单。
 
-> Previously, on Aseprite v1.2 the option was *Layer > Layer from Background*
+> 在之前的 Aseprite v1.2 中，该选项为 *图层 > 从图层创建背景*
 
-## Layer Group
+## 图层组
 
-You can [group layers](layer-group.md) to handle a set of layers as
-one unit.
+你可以 [分组图层](layer-group.md) 来处理一组图层作为一个单元。
 
-## Tilemap Layer
+## 瓦片图层
 
-Since **Aseprite v1.3**, you can create [tilemap layers](tilemap.md)
-from *Layer > New > New Tilemap Layer* menu or using <kbd>Space+N</kbd>.
-You can also use *Layer > Convert To > Tilemap* from any regular transparent
-layer (the tiles will be created from the active grid settings).
+自 **Aseprite v1.3** 起，你可以通过 *图层 > 新建 > 新建瓦片地图图层* 菜单或使用 <kbd>N</kbd> + <kbd>Space</kbd> 组合键来创建 [瓦片地图图层](tilemap.md)。
+你还可以从任意常规透明图层使用 *图层 > 转换为 > 瓦片地图* 选项（瓦片将根据活动网格设置创建）。
 
-## New Layers from Selection
+## 从选择创建新图层
 
-* <kbd>Ctrl+J</kbd> or <kbd>⌘J</kbd>: Copies the [selection](selecting.md) and creates a new layer from it
-* <kbd>Ctrl+Shift+J</kbd> or <kbd>⇧⌘J</kbd>: Cuts the [selection](selecting.md) and creates a new layer from it
+* <kbd>Ctrl</kbd> + <kbd>J</kbd> 或 <kbd>⌘</kbd> + <kbd>J</kbd>: 复制[选框](selecting.md)并从中创建一个新图层
+* <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>J</kbd> 或 <kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>J</kbd>: 剪切[选框](selecting.md)并从中创建一个新图层
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Timeline](timeline.md) |
-[Continuous Layers](continuous-layers.md) |
-[Move tool](move-tool.md)
+[时间轴](timeline.md) |
+[连续图层](continuous-layers.md) |
+[移动工具](move-tool.md)

@@ -1,74 +1,52 @@
-# Files
+# 文件
 
-Aseprite uses several file formats to save and load different
-information. The main thing you need to know is that your work is
-saved in your local computer when you use the [*File > Save* menu](save.md).
-There is no "cloud" or remote server funcionality involved, so keep in mind to
-backup your work or use a cloud-like folder service like Dropbox,
-Drive, OneDrive, etc. if you want to keep your work safe or shared
-between computers.
+Aseprite 使用多种文件格式来保存和加载不同的信息。你需要知道的主要一点是，当你使用 [*文件 > 保存* 菜单](save.md) 时，你的工作成果会保存在本地计算机中。
+不涉及“云”或远程服务器功能，因此请记住备份你的工作成果，或者如果你想确保工作成果的安全，或在多台计算机之间共享，可使用类似云盘的文件夹服务，如 Dropbox、Google Drive、OneDrive 等。
 
 ## .aseprite
 
-Aseprite has its own file format to [save](save.md) your work: `.aseprite` files
-(or `.ase`, [both are the same](/faq/#is-there-any-difference-between-ase-and-aseprite-files)).
-When you save your sprites in an `.aseprite` file you
-will be able to keep all the information intact ([color
-mode](color-mode.md), [layers](layers.md), [frames](frames.md),
-palette, [tags](tags.md), [slices](slices.md), etc.)
+Aseprite 有自己的文件格式来 [保存](save.md) 你的作品：`.aseprite` 文件
+（或 `.ase`，[两者相同](/faq/#is-there-any-difference-between-ase-and-aseprite-files)）。
+当你将精灵保存为 `.aseprite` 文件时，你可以完整保留所有信息（[颜色模式](color-mode.md)、[图层](layers.md)、[帧](frames.md)、
+调色板、[标签](tags.md)、[切片](slices.md) 等）。
 
-Generally you will want to [export your work](exporting.md) to other
-formats (`.png`, `.gif`, etc.) for publishing purposes or to use your
-assets in a game. But keep the original `.aseprite` in a safe place to
-modify the sprite when it's required.
+通常，你会希望将作品 [导出](exporting.md) 为其他格式（`.png`、`.gif` 等），以便发布，或在游戏中使用这些资源。不过，请将原始的 `.aseprite` 文件保存在安全的地方，以便在需要时修改精灵。
 
-The internal structure of these files is described in the [Aseprite
-File Format Specs](https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md).
+这些文件的内部结构在 [Aseprite 文件格式规范](https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md) 中有详细说明。
 
 ## .aseprite-extension
 
-You can create extensions in the `.aseprite-extension` format which is
-a `.zip` file with a specific set of files inside, see the [File
-Content](extensions.md#file-content) section in the
-[Extensions](extensions.md) page for more information.
+你可以创建 `.aseprite-extension` 格式的扩展，它是一个包含特定文件集的 `.zip` 文件。有关更多信息，请参阅 [扩展](extensions.md) 页面中的 [文件内容](extensions.md#文件内容) 部分。
 
 ## .lua
 
-A script in the *File > Scripts > Open Scripts Folder* folder used for
-[scripting purposes](scripting.md).
+位于 *文件 > 脚本 > 打开脚本文件夹* 文件夹中的脚本，用于 [脚本编写](scripting.md)。
 
-## Preferences
+## 首选项
 
-[Preferences](preferences.md) are saved inside the [preferences
-folder](preferences-folder.md) in several files:
+[首选项](preferences.md) 会保存在 [首选项文件夹](preferences-folder.md) 中的多个文件里：
 
 ### aseprite.ini
 
-The main options/configuration specified in the *Edit > Preferences*
-dialog are in this file.
+*编辑 > 首选项* 对话框中指定的主要选项/配置都保存在此文件中。
 
 ### user.aseprite-brushes
 
-Custom brushes are stored in this file (a XML file). In the future
-we'll bring more options to export/import brushes between different
-files.
+自定义笔刷存储在此文件（XML 文件）中。未来，我们将提供更多选项，以便在不同文件之间导出/导入笔刷。
 
 ### user.aseprite-keys
 
-Your customized keyboard shortcuts are stored in this file, and when
-you export/import keyboard shortcuts the same `.aseprite-keys` file
-format is used (a XML file).
+你自定义的键盘快捷键存储在此文件中，并且在导出/导入键盘快捷键时，也会使用相同的 `.aseprite-keys` 文件格式（XML 文件）。
 
 ### sessions
 
-The `sessions` folder has some backup files used
-in [data recovery process](data-recovery.md).
+`session` 文件夹包含一些用于 [数据恢复流程](data-recovery.md) 的备份文件。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Save](save.md) |
-[Exporting](exporting.md) |
-[Preferences](preferences.md) |
-[Aseprite File Format Specs](https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md)
+[保存](save.md) |
+[导出](exporting.md) |
+[首选项](preferences.md) |
+[Aseprite 文件格式规范](https://github.com/aseprite/aseprite/blob/main/docs/ase-file-specs.md)

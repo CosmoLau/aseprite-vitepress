@@ -1,40 +1,29 @@
-# Sprite structure
+# 精灵结构
 
-In Aseprite a document/file/sprite has the following properties:
+在 Aseprite 中，文档/文件/精灵具有以下属性：
 
-1. It has a [size](sprite-size.md) in pixels (width and height).
-1. It has a [color mode](color-mode.md), which tells you how many
-   colors the image can handle. All images in the sprite are in one
-   specific mode, you cannot mix RGB images with Indexed images in the
-   same sprite.
-1. A [color profile](color-profile.md) which indicates what color space the RGB values are in.
-1. It contains a set of layers. You can see them in
-   the [Timeline](timeline.md). The most important concept here is
-   that there are two kinds of layers:
-   the [background layer](layers.md#background-layer) for opaque sprites, and
-   [transparent layers](layers.md#transparent-layers).
-   A sprite can contain only one background layer, but several
-   transparent layers.
-1. It contains animation frames. Each frame has a duration, i.e. how many milliseconds
-   the frame must be on screen when the animation is being played.
-1. Each layer/frame intersection is called a [cel](cel.md),
-   and contains the image where you finally can [paint](drawing.md).
+1. 它具有以像素为单位的[尺寸](sprite-size.md)（宽度和高度）。
+1. 它具有[颜色模式](color-mode.md)，该模式表明图像可以处理多少种颜色。精灵中的所有图像都处于一种特定的模式下，不能在同一个精灵中混合 RGB 图像和索引图像。
+1. 一个[颜色配置文件](color-profile.md)，它指明了 RGB 值所处的颜色空间。
+1. 它包含一组图层。你可以在[时间轴](timeline.md)中看到它们。
+   这里最重要的概念是有两种类型的图层：
+   用于不透明精灵的[背景图层](layers.md#背景图层)，以及
+   [透明图层](layers.md#透明图层)。
+   一个精灵只能包含一个背景图层，但可以包含多个透明图层。
+1. 它包含一组动画帧。每个帧都有一个持续时间，即帧在动画播放时必须保持在屏幕上的毫秒数。
+1. 每个图层/帧交叉点都是一个[单元格](cel.md)，
+   并包含你最终可以[绘制](drawing.md)的图像。
 
-The [timeline](timeline.md) shows you the whole structure of the
-sprite as a grid. Rows are layers and columns are frames, each
-little cell of the matrix is a [cel](cel.md):
+[时间轴](timeline.md) 以网格形式向你展示精灵的整个结构。行表示图层，列表示帧，矩阵中的每个小格子都是一个[单元格](cel.md)：
 
 <img src="./sprite/sprite-components.png" alt="Cels Matrix" class="xN" />
 
-You can see some extra elements like [tags](tags.md) and [linked
-cels](linked-cels.md). These elements are useful to organize several
-animations of the same sprite, and to re-utilize frames along the
-animations (or different animations).
+你可以看到一些额外的元素，如[标签](tags.md)和[链接的单元格](linked-cels.md)。这些元素有助于组织同一个精灵的多个动画，以及在动画中（或不同动画之间）复用帧。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Color Mode](color-mode.md) |
-[Save](save.md) |
-[Sprite size](sprite-size.md)
+[颜色模式](color-mode.md) |
+[保存](save.md) |
+[精灵尺寸](sprite-size.md)

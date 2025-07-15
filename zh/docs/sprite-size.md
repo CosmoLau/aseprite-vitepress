@@ -1,9 +1,9 @@
-# Sprite Size
+# 精灵尺寸
 
-The sprite size is specified when you create a new sprite from *File > New* menu.
-But you can change it in several ways. You can change:
+精灵尺寸是在你通过 *文件 > 新建* 菜单创建新精灵时指定的。
+但你可以通过多种方式更改它。你可以更改：
 
-* [Canvas size](canvas.md)
-* [Resize sprite content](resize.md)
+* [画布尺寸](canvas.md)
+* [调整精灵内容](resize.md)
 
-Also you can use the [Command Line Interface](cli.md#resize-one-sprite-to-several-dimensions) for the same purpose.
+此外，你也可以使用 [命令行界面](cli.md#resize-one-sprite-to-several-dimensions) 来实现相同的目的。

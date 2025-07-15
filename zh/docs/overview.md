@@ -1,71 +1,68 @@
-# Aseprite Help
+# Aseprite 帮助
 
-Aseprite lets you create 2D animations for videogames. From sprites,
-to pixel-art, retro style graphics, and whatever you like about the
-[8-bit](https://en.wikipedia.org/wiki/Third_generation_of_video_game_consoles)
-and [16-bit](https://en.wikipedia.org/wiki/Fourth_generation_of_video_game_consoles) era.
+Aseprite 可让你为电子游戏创建 2D 动画。从精灵图、
+像素艺术、复古风格的图形，到你喜欢的
+[8 位](https://en.wikipedia.org/wiki/Third_generation_of_video_game_consoles)
+和 [16 位](https://en.wikipedia.org/wiki/Fourth_generation_of_video_game_consoles) 时代的一切内容。
 
-Here you will find some help, tutorials, and little tips to use
-Aseprite and start getting the best from it from the very
-beginning. If you have some questions you can start looking at the
-[Frequently Asked Questions](/faq/).
+这里你将找到一些帮助、教程和一些技巧来使用 Aseprite 并从开始就获得它的最佳内容。
+如果有任何问题，你可以开始查看
+[常见问题](/faq/)。
 
-To get started, you can print the [Quick Reference](/quickref/). It
-contains several keyboard shortcuts, so it could be handy to have it
-at your side.
+要开始使用，你可以打印 [快速参考](/quickref/)。它包含多个键盘快捷键，把它放在身边可能会很有用。
 
-**[Basics](basics.md)**: General concepts, elements in the window, expected workflow, etc.
+**[基础](basics.md)**: 一般概念、窗口中的元素、预期工作流程等。
 
-  * [Workspace](workspace.md)
-  * [Workflow](workflow.md)
-  * [Sprite](sprite.md)
+  * [工作区](workspace.md)
+  * [工作流](workflow.md)
+  * [精灵](sprite.md)
 
-**[Image & Sprite](sprite.md)**:
+**[图像与精灵](sprite.md)**:
 
-  * [Create a new Sprite](new-sprite.md) or [Open an existing one](open.md)
-  * [Resize Sprite](sprite-size.md)
-  * [Color Mode](color-mode.md) & [Color Profile](color-profile.md)
-  * [Save Your Work](save.md)
+  * [创建一个新的精灵](new-sprite.md) or [打开一个现有精灵](open.md)
+  * [调整精灵大小](sprite-size.md)
+  * [颜色模式](color-mode.md) & [颜色配置文件](color-profile.md)
+  * [保存你的工作](save.md)
 
-**[Animation](animation.md)**: How to create animations & manipulate frames
+**[动画](animation.md)**: 如何创建动画与操作帧
 
-  * [Onion Skinning](onion-skinning.md)
+  * [洋葱皮](onion-skinning.md)
 
-**[Layers](layers.md)**: How to handle several layers to compose images
+**[图层](layers.md)**: 如何处理多个图层来组合图像
 
-**[Selecting](selecting.md)**: How to select
+**[选择](selecting.md)**: 如何选择
 
-**[Drawing](drawing.md)**: How to start drawing
+**[绘制](drawing.md)**: 如何开始绘制
 
-  * [Zoom](zoom.md)
+  * [缩放](zoom.md)
 
-**[Transformations](transformations.md)**:
+**[变换](transformations.md)**:
 
-  * [Flip](flip.md)
-  * [Canvas](canvas.md)
-  * [Resize](resize.md)
-  * [Rotate](rotate.md)
+  * [翻转](flip.md)
+  * [画布](canvas.md)
+  * [调整大小](resize.md)
+  * [旋转](rotate.md)
 
-**[Exporting](exporting.md)**:
+**[导出](exporting.md)**:
 
-  * [Sprite Sheets](sprite-sheet.md)
-  * [Command Line Interface (CLI)](cli.md)
+  * [精灵表](sprite-sheet.md)
+  * [命令行界面 (CLI)](cli.md)
 
-**[Customization](customization.md)**
+**[自定义](customization.md)**
 
-  * [Preferences](preferences.md)
-  * [Extensions](extensions.md)
-  * [Scripting](scripting.md)
+  * [偏好设置](preferences.md)
+  * [扩展](extensions.md)
+  * [脚本](scripting.md)
 
-**[Troubleshooting](troubleshooting.md)**:
+**[故障排除](troubleshooting.md)**:
 
-  * [Data Recovery](data-recovery.md)
-  * [Reset Preferences](reset-preferences.md)
-  * [Debug Option](debug.md)
+  * [数据恢复](data-recovery.md)
+  * [重置偏好设置](reset-preferences.md)
+  * [调试选项](debug.md)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Frequently Asked Questions](/faq/) |
-[Tutorial](/tutorial/)
+[常见问题](/faq/) |
+[教程](/tutorial/)

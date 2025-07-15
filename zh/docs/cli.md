@@ -1,31 +1,28 @@
-# Aseprite Command Line Interface
+# Aseprite 命令行接口
 
-You can convert or export your sprites to other formats (or
-textures+json data) from the command line.  See
-[Platform-specific Details](#platform-specific-details) section to
-know how to use the command line.
+你可以从命令行将精灵转换或导出为其他格式（或纹理 + JSON 数据）。请参阅
+[特定平台的详细信息](#platform-specific-details) 部分，了解如何使用命令行。
 
-* [Options](#options)
-* [Use Cases](#use-cases)
-* [Platform-specific Details](#platform-specific-details)
-* [Automating the process](#automating-the-process)
+* [选项](#options)
+* [使用案例](#use-cases)
+* [特定平台的详细信息](#platform-specific-details)
+* [自动化流程](#automating-the-process)
 
-![Atlas](//www.aseprite.org/assets/images/atlas.gif)
+![图集](//www.aseprite.org/assets/images/atlas.gif)
 
-# Options
+# 选项
 
 <pre>
 Usage:
   aseprite.exe [OPTIONS] [FILES]...
 
 Options:
-      --<a href="#shell">shell</a>                  Start an interactive console to execute scripts
-  -b, --<a href="#batch">batch</a>                  Do not start the UI
-  -p, --<a href="#preview">preview</a>                Do not execute actions, just print what will be
-                               done
-      --<a href="#save-as">save-as</a> &lt;filename&gt;     Save the last given sprite with other format
-      --<a href="#palette">palette</a> &lt;filename&gt;     Change the palette of the last given sprite
-      --<a href="#scale">scale</a> &lt;factor&gt;         Resize all previously opened sprites
+      --<a href="#shell">shell</a>                  启动一个交互式控制台以执行脚本
+  -b, --<a href="#batch">batch</a>                  不启动用户界面
+  -p, --<a href="#preview">preview</a>                不执行操作，仅打印将要执行的操作
+      --<a href="#save-as">save-as</a> &lt;filename&gt;     以其他格式保存最后指定的精灵
+      --<a href="#palette">palette</a> &lt;filename&gt;     更改最后指定的精灵的调色板
+      --<a href="#scale">scale</a> &lt;factor&gt;         调整所有先前打开的精灵的尺寸
       --<a href="#dithering-algorithm">dithering-algorithm</a> &lt;algorithm&gt;
                                Dithering algorithm used in --color-mode
                                to convert images from RGB to Indexed
@@ -99,23 +96,21 @@ Options:
 
 ## --shell
 
-Executes Aseprite in a
-[REPL mode](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop). You
-can write JavaScript code in this mode. There are plans for a
-[specific API](https://github.com/aseprite/api-draft) for future version.
+以 [REPL 模式](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) 运行 Aseprite。你可以在此模式下编写 JavaScript 代码。未来版本有计划提供 [特定 API](https://github.com/aseprite/api-draft)。
 
 ## --batch
 
-Runs Aseprite only to process command line options, then
-finishes. It's specially useful if you are running Aseprite from a
-script to automate sprite sheet generation, image conversion, etc.
-Example:
+仅运行 Aseprite 来处理命令行选项，然后退出。如果你从脚本中运行 Aseprite 来自动化精灵表生成、图像转换等任务，这个选项特别有用。示例：
 
-    aseprite --batch
+```shell
+aseprite --batch
+```
 
-Or you can use the shorter form:
+或者，你可以使用更简短的形式：
 
-    aseprite -b
+```shell
+aseprite -b
+```
 
 ## --preview
 

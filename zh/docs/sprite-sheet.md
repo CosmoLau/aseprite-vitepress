@@ -1,53 +1,48 @@
-# Sprite sheets
+# 精灵表
 
-A sprite sheet is one big image with several frames of the same sprite
-on it. For example, you can save this animation:
+精灵表是一张包含同一精灵多个帧的大图。例如，你可以保存这样的动画：
 
-![Running Guy](sprite-sheet/running-guy.gif)
+![奔跑的人](sprite-sheet/running-guy.gif)
 
-Like an horizontal sprite sheet:
+例如一张水平精灵表：
 
-![Horizontal Sprite Sheet](sprite-sheet/running-guy-horz.png)
+![水平精灵表](sprite-sheet/running-guy-horz.png)
 
-A vertical one:
+一张垂直精灵表：
 
-![Vertical Sprite Sheet](sprite-sheet/running-guy-vert.png)
+![垂直精灵表](sprite-sheet/running-guy-vert.png)
 
-Or a matrix:
+或者一个矩阵精灵表：
 
-![Matrix Sprite Sheet](sprite-sheet/running-guy-matrix.png)
+![矩阵精灵表](sprite-sheet/running-guy-matrix.png)
 
-In the following section you will know how to export and import this
-kind of images into Aseprite.
+在接下来的章节中，你将了解如何将这类图像导入和导出到 Aseprite 中。
 
-## Import
+## 导入
 
-To import a sprite sheet use *File > Import Sprite Sheet* option.
-Then you can select the file to import with an assigned offset `x`,
-`y` and sprite `width`, `height`.
+要导入精灵表，请使用 *文件 > 导入精灵表* 选项。
+然后你可以选择要导入的文件，并指定偏移量 `x`、
+`y` 以及精灵的 `宽度`、`高度`。
 
-![Import Sprite Sheet 01](sprite-sheet/running-guy-import-01.png)
+![导入精灵表 01](sprite-sheet/running-guy-import-01.png)
 
-Padding is available if there are gaps between sprites,
-and the sheet type will affect the order of the sprites taken in.
+如果精灵之间存在间隙，可以使用填充功能，
+并且精灵表类型会影响所导入精灵的顺序。
 
-![Import Sprite Sheet 02](sprite-sheet/running-guy-import-02.png)
+![导入精灵表 02](sprite-sheet/running-guy-import-02.png)
 
-## Export
+## 导出
 
-To export a sprite sheet use *File > Export Sprite Sheet* option.
-You can select all visible layers or a certain layer,
-and select the frames based on tags.
+要导出精灵表，请使用 *文件 > 导出精灵表* 选项。
+你可以选择所有可见图层或特定图层，
+并根据标签选择帧。
 
-![Export Sprite Sheet](sprite-sheet/running-guy-export.png)
+![导出精灵表](sprite-sheet/running-guy-export.png)
 
-## Automate from Command Line
+## 命令行自动化
 
-(*Work-in-progress*)
+(*开发中*)
 
-## Texture Atlases
+## 纹理图集
 
-A texture atlas is an huge image with all the graphics, sprites and
-images that a game will use. It's called "texture" because the image
-can be loaded into the video memory, to render graphics on screen with
-hardware acceleration.
+纹理图集是一张包含游戏所需的所有图形、精灵和图像的大图。它被称为“纹理”是因为该图像可以加载到显存中，以便利用硬件加速在屏幕上渲染图形。

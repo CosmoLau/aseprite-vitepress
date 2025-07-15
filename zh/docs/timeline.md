@@ -1,56 +1,50 @@
-# Timeline
+# 时间轴
 
-This is the timeline:
+这是时间轴：
 
 <img src="./timeline/timeline.png" alt="Timeline" class="xN" />
 
-It shows the [layers](layers.md) and frames of the active sprite. You can use the
-*View > Timeline* menu option or press the <kbd>Tab</kbd> key to show or hide
-it. It also appears automatically when you create a [new Frame](new-frame.md) or
-[Layer](new-layer.md). (This behavior can be disable from *Edit > Options > Timeline >
-Show timeline automatically*.)
+它显示了当前活动精灵的[图层](layers.md)和帧。你可以使用*视图 > 时间轴*菜单选项，或按下 <kbd>Tab</kbd> 键来显示或隐藏它。当你创建一个[新帧](new-frame.md)或[新图层](new-layer.md)时，它也会自动出现。（可通过*编辑 > 首选项 > 时间轴 > 自动显示时间轴*来禁用此行为。）
 
-You can use *Layer > New Layer* menu (<kbd>Shift+N</kbd>) to create new layers
-or *Frame > New Frame* menu (<kbd>Alt+N</kbd>) to add frames.
+你可以使用*图层 > 新建图层*菜单（<kbd>Shift</kbd> + <kbd>N</kbd>）来创建新图层，
+或使用*帧 > 新建帧*菜单（<kbd>Alt</kbd> + <kbd>N</kbd>）来添加帧。
 
-### Common Operations
+### 常见操作
 
-* [Layers](layers.md):
-  * [Move layers](move-layers.md)
-  * [Copy layers](copy-layers.md)
-* [Frames](animation.md):
-  * [Move frames](move-frames.md)
-  * [Copy frames](copy-frames.md)
-* [Cels](cel.md):
-  * [Move cels](move-cels.md)
-  * [Copy cels](copy-cels.md)
-* [Tags](tags.md):
-  * [Loop section](loop.md)
-  * [Focus tag](focus-tag.md)
+* [图层](layers.md):
+  * [移动图层](move-layers.md)
+  * [复制图层](copy-layers.md)
+* [帧](animation.md):
+  * [移动帧](move-frames.md)
+  * [复制帧](copy-frames.md)
+* [单元格](cel.md):
+  * [移动单元格](move-cels.md)
+  * [复制单元格](copy-cels.md)
+* [标签](tags.md):
+  * [循环区间](loop.md)
+  * [聚焦标签](focus-tag.md)
 
-## Preferences
+## 首选项
 
-You can configure the Timeline pressing
-the ![Configure Timeline Icon](animation/configure-timeline.png) button.
+你可以通过按下 ![配置时间轴图标](animation/configure-timeline.png) 按钮来配置时间轴。
 
-Some options:
+一些选项：
 
-1. [Onion Skinning](onion-skinning.md)
-1. [First frame as 0](https://community.aseprite.org/t/3895/2) (or any other number)
+1. [洋葱皮](onion-skinning.md)
+1. [将第一帧编号设为 0](https://community.aseprite.org/t/3895/2)（或其他数字）
 
-## Copy between documents
+## 在文档间复制
 
-You can copy and paste layers, frames, or cels between different
-documents using *Edit > Copy* and *Edit > Paste*.
+你可以使用 *编辑 > 复制* 和 *编辑 > 粘贴* 在不同文档之间复制和粘贴图层、帧或单元格。
 
-![Copy and Paste on Timeline](timeline/timeline-copy-and-paste.gif)
+![时间轴上的复制和粘贴](timeline/timeline-copy-and-paste.gif)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Animation](animation.md) |
-[Onion Skinning](onion-skinning.md) |
-[Layers](layers.md) |
-[Cel](cel.md) |
-[Tags](tags.md)
+[动画](animation.md) |
+[洋葱皮](onion-skinning.md) |
+[图层](layers.md) |
+[单元格](cel.md) |
+[标签](tags.md)
