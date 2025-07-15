@@ -137,3 +137,24 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+kbd {
+  display: inline-block;
+  padding: 0.2em 0.4em;
+  font-size: 0.875em;
+  line-height: 1;
+  color: #000000;
+  background-color: var(--vp-c-default-soft);
+  border: 1px solid var(--vp-c-default-2);
+  border-radius: 4px;
+  box-shadow: 0 1px 0 var(--vp-c-default-2);
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+img { display: inline; }
+
+.xN {
+  width: 100%;
+  max-width: 600px;
+}
