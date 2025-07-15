@@ -51,6 +51,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
                 { text: 'スプライトの構造', link: 'sprite' },
                 { text: '色', link: 'color' },
                 { text: '描く', link: 'drawing' },
+                { text: '選択', link: 'selecting' },
                 { text: '変形', link: 'transformations' },
             ],
         },

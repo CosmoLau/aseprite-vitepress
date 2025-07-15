@@ -49,8 +49,9 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
             collapsed: false,
             items: [
                 { text: '图片与精灵', link: 'sprite' },
-                { text: '颜色', link: 'color' },
+                { text: '色彩', link: 'color' },
                 { text: '绘制', link: 'drawing' },
+                { text: '选框', link: 'selecting' },
                 { text: '变换', link: 'transformations' },
             ],
         },
@@ -61,7 +62,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '图层', link: 'layers' },
                 { text: '动画', link: 'animation' },
-                { text: '瓦片图', link: 'tilemap' },
+                { text: '瓦片地图', link: 'tilemap' },
                 { text: '切片', link: 'slices' },
             ],
         },
@@ -72,7 +73,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '保存', link: 'save' },
                 { text: '导出', link: 'exporting' },
-                { text: '精灵工作表', link: 'sprite-sheet' },
+                { text: '精灵表', link: 'sprite-sheet' },
                 { text: 'CLI', link: 'cli' },
             ],
         },
@@ -81,7 +82,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
             link: 'customization',
             collapsed: false,
             items: [
-                { text: '偏好设置', link: 'preferences' },
+                { text: '首选项', link: 'preferences' },
                 { text: '扩展', link: 'extensions' },
                 { text: '脚本', link: 'scripting' },
             ],

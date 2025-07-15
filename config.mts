@@ -35,6 +35,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
                 { text: 'Image & Sprite', link: 'sprite' },
                 { text: 'Color', link: 'color' },
                 { text: 'Drawing', link: 'drawing' },
+                { text: 'Selecting', link: 'selecting'},
                 { text: 'Transformations', link: 'transformations' },
             ]
         },
