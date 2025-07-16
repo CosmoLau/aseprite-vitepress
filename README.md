@@ -4,7 +4,7 @@
 
 aseprite-vitepress is a project that ports the official Aseprite documentation using VitePress. It has excellent multilingual support and is expanded based on the official documentation repository, making it easy to update the documentation at any time.
 
-# Adding a New Language
+## Add a New Language
 
 1. Clone this repository
 
@@ -15,8 +15,61 @@ aseprite-vitepress is a project that ports the official Aseprite documentation u
 git clone --recurse-submodules https://github.com/aseprite-vitepress/aseprite-vitepress.git
 ```
 
-2. Copy the `zh` directory to a new language directory
-3. Translate the `index.md` file in the directory
-4. Add configuration file similar to `zh/config.mts` to the new language directory
-5. Translate sidebar and navigation bar contents in the `config.mts` configuration file
-6. Submit a PR
+2. Use the `create` script command to create a new language directory
+
+```bash
+npm run create <your language>
+
+# Or use other package managers, such as bun
+# bun run create <your language>
+```
+
+3. In the `.vitepress/config.mts` file, add the new language configuration
+
+```diff
+    locales: {
+        root: { label: 'English' },
+        zh: { label: '简体中文' },
+        jp: { label: '日本語' },
+        <your language>: { label: '你的语言' },
+    },
+```
+
+4. In the new language folder, translate the documentation
+
+## Check for Documentation Updates
+
+Use the `check` command to check if the documentation has been updated
+
+```bash
+npm run check <your language>
+```
+
+If there are updates, it will prompt you whether to copy the files
+
+```bash
+Do you want to copy these files? (y/n):
+```
+
+## Developer Debugging
+
+Use `vitepress` for developer debugging
+
+```bash
+npm run docs:dev
+```
+
+## Build and Preview
+
+Use `vitepress` for building and previewing
+
+```bash
+# 构建
+npm run docs:build
+# 预览
+npm run docs:preview
+```
+
+## Submit PR
+
+If the build and preview are successful, you can submit a PR.
