@@ -1,30 +1,45 @@
-import { defineAdditionalConfig, defineConfig, type DefaultTheme } from 'vitepress'
+import { defineAdditionalConfig, type DefaultTheme } from 'vitepress'
 
 export default defineAdditionalConfig({
-    lang: 'en-US',
+    // document language
+    lang: '{lang}',
 
     themeConfig: {
         nav: nav(),
 
         sidebar: {
-            '/docs/': { base: '/docs/', items: sidebarDocs() },
-            '/api/': { base: '/api/', items: sidebarApi() },
+            '/{lang}/docs/': { base: '/{lang}/docs/', items: sidebarDocs() },
+            '/{lang}/api/': { base: '/{lang}/api/', items: sidebarApi() },
         },
 
+        outline: {
+            label: 'On this page',
+        },
+        lastUpdated: {
+            text: 'Last updated: ',
+        },
         editLink: {
+            text: 'Edit this page',
             pattern: 'https://github.com/CosmoLau/aseprite-vitepress/:path',
+        },
+        returnToTopLabel: 'Return to top',
+        docFooter: {
+            prev: 'Previous page',
+            next: 'Next page',
         },
     }
 })
 
+// navigation
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: 'Home', link: '/' },
-        { text: 'Document', link: '/docs/overview' },
-        { text: 'API Refence', link: '/api/README' },
+        { text: 'Home', link: '/{lang}/' },
+        { text: 'Document', link: '/{lang}/docs/overview' },
+        { text: 'API Refence', link: '/{lang}/api/README' },
     ]
 }
 
+// document sidebar
 function sidebarDocs(): DefaultTheme.SidebarItem[] {
     return [
         {
@@ -39,13 +54,13 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
                 { text: 'Image & Sprite', link: 'sprite' },
                 { text: 'Color', link: 'color' },
                 { text: 'Drawing', link: 'drawing' },
-                { text: 'Selecting', link: 'selecting'},
+                { text: 'Selecting', link: 'selecting' },
                 { text: 'Transformations', link: 'transformations' },
             ]
         },
         {
             text: 'Sprite',
-            link: 'sprite', 
+            link: 'sprite',
             collapsed: false,
             items: [
                 { text: 'Layers', link: 'layers' },
@@ -78,6 +93,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
     ]
 }
 
+// api sidebar
 function sidebarApi(): DefaultTheme.SidebarItem[] {
     return [
         {
