@@ -152,6 +152,13 @@ kbd {
   transition: all 0.2s ease;
 }
 
+.dark kbd {
+  color: #ffffff;
+  background-color: var(--vp-c-default-3);
+  border: 1px solid var(--vp-c-default-1);
+  box-shadow: 0 1px 0 var(--vp-c-default-1);
+}
+
 img { display: inline; }
 
 .xN {
