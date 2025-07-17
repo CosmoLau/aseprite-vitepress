@@ -1,15 +1,13 @@
-# Default Palette
+# 默认调色板
 
-New sprites are created with the default palette. This default palette is [Richard
-"DawnBringer" Fhager 32 colors palette](http://pixeljoint.com/forum/forum_posts.asp?TID=16247)
-initially.
+新建的精灵会使用默认调色板。这个默认调色板最初是[理查德·“DawnBringer”·费格（Richard "DawnBringer" Fhager）的32色调色板](http://pixeljoint.com/forum/forum_posts.asp?TID=16247)。
 
-Anyway you can change it using the ☰ *> Save Palette as Default* menu option:
+无论如何，你都可以使用 ☰ *> 另存调色板为默认值* 菜单选项来更改它：
 
-![Save Palette as Default demo](default-palette/save-as-default.gif)
+![另存调色板为默认值演示](default-palette/save-as-default.gif)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[New Sprite](new-sprite.md)
+[新建精灵](new-sprite.md)

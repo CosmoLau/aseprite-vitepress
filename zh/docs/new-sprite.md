@@ -1,33 +1,33 @@
-# New Sprite
+# 新建精灵
 
-You can create a new sprite from *File > New* menu (<kbd>Ctrl+N</kbd> or <kbd>⌘N</kbd>).
+你可以通过 *文件 > 新建* 菜单（<kbd>Ctrl+N</kbd> 或 <kbd>⌘N</kbd>）创建新精灵。
 
-![New sprite dialog](new-sprite/newsprite.png)
+![新建精灵对话框](new-sprite/newsprite.png)
 
-Here you select the sprite:
+在这里你可以选择精灵的以下属性：
 
-* dimension (in pixels),
-* its [color mode](color-mode.md), and
-* the default background color.
+* 尺寸（以像素为单位），
+* 其[颜色模式](color-mode.md)，以及
+* 默认背景颜色。
 
-The sprite is created with a specific [palette by default](default-palette.md).
+精灵默认会使用特定的[调色板](default-palette.md)创建。
 
-### Math in Numeric Fields
+## 数字字段中的数学运算
 
-[Numeric fields](numeric-field.md) like *Width* and *Height* can evaluate little math expressions:
+像 *宽度* 和 *高度* 这类[数字字段](numeric-field.md)可以计算简单的数学表达式：
 
-![Math demo in numeric field](numeric-field/math.gif)
+![数字字段中的数学运算演示](numeric-field/math.gif)
 
 ## New Sprite from Selection
 
 You can create a new sprite from the active selection using
 *Edit > New Sprite from Selection* (<kbd>Ctrl+Alt+N</kbd> or <kbd>⌥⌘N</kbd>):
 
-![New sprite from selection](new-sprite/new-sprite-from-selection.gif)
+![从选框中新建精灵](new-sprite/new-sprite-from-selection.gif)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Color Mode](color-mode.md) |
-[Default Palette](default-palette.md)
+[颜色模式](color-mode.md) |
+[默认调色板](default-palette.md)

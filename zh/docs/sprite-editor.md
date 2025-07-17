@@ -1,29 +1,24 @@
-# Sprite Editor
+# 精灵编辑器
 
-The sprite editor is the first thing you will see when you create a
-[new sprite](new-sprite.md):
+当你创建一个[新精灵](new-sprite.md)时，精灵编辑器是你首先会看到的界面：
 
-![Sprite Editor](sprite-editor/sprite-editor.png)
+![精灵编辑器](sprite-editor/sprite-editor.png)
 
-On the sprite editor you can:
+在精灵编辑器中，你可以：
 
-1. [Draw](drawing.md) with mouse clicks or a stylus/pen, or with one
-   finger on a Windows Surface device.
-1. [Zoom](zoom.md) with the mouse wheel or with a pinch-like gesture
-   on a MacBook trackpad or the Windows Surface screen.
-1. You can also scroll/pan with the mouse wheel and <kbd>Shift</kbd> key, or
-   using two fingers in the MacBook trackpad or on Windows Surface
-   screen.
+1. 使用鼠标点击、手写笔/触控笔进行[绘制](drawing.md)，或者在 Windows Surface 设备上用单指绘制。
+1. 使用鼠标滚轮，或者在 MacBook 触控板、Windows Surface 屏幕上用双指捏合手势进行[缩放](zoom.md)。
+1. 你还可以按住 <kbd>Shift</kbd> 键并使用鼠标滚轮滚动/平移视图，或者在 MacBook 触控板、Windows Surface 屏幕上用双指操作。
 
-### Preferences
+### 首选项
 
-You can customize the Sprite Editor behavior from [*Edit > Preferences > Editor*](preferences.md#editor).
+你可以从 [*编辑 > 首选项 > 编辑器*](preferences.md#editor) 自定义精灵编辑器的行为。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Sprite](sprite.md) |
-[Timeline](timeline.md) |
-[Workspace](workspace.md) |
-[Basics](basics.md)
+[精灵](sprite.md) |
+[时间轴](timeline.md) |
+[工作区](workspace.md) |
+[基础](basics.md)

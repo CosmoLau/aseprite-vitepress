@@ -1,9 +1,9 @@
-# Tool Bar
+# 工具栏
 
-The tool bar contains several tools that you can use for different purposes:
+工具栏包含多个可用于不同用途的工具：
 
-* [Paint](drawing.md) ![Pencil Icon](tools/pencil-tool.png)
-* [Pick colors](eyedropper.md) ![Eyedropper Icon](tools/eyedropper-tool.png)
-* [Zoom](zoom.md) ![Zoom Icon](tools/zoom-tool.png)
-* [Select and transform regions](selecting.md) ![Marquee Tool Icon](tools/marquee-tool.png)
-* [Show Timeline](timeline.md) ![Timeline Icon](tools/timeline.png)
+* [绘制](drawing.md) ![铅笔图标](tools/pencil-tool.png)
+* [取色](eyedropper.md) ![吸管图标](tools/eyedropper-tool.png)
+* [缩放](zoom.md) ![缩放图标](tools/zoom-tool.png)
+* [选择和变换区域](selecting.md) ![选框工具图标](tools/marquee-tool.png)
+* [显示时间轴](timeline.md) ![时间轴图标](tools/timeline.png)

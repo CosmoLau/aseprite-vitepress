@@ -1,13 +1,13 @@
-# Right-click
+# 右键单击
 
-By default, <kbd>Right click</kbd> paints with the [Background Color](color-bar.md#background-color),
-but you can change this configuration from *Edit > Preferences > Editor*:
+默认情况下，<kbd>右键单击</kbd> 使用 [背景色](color-bar.md#背景色) 进行绘制，
+但你可以在 *编辑 > 首选项 > 编辑器* 中更改此配置：
 
-![Right-click Preferences](sprite-editor/right-click.png)
+![右键单击首选项](sprite-editor/right-click.png)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Basics](basics.md) |
-[Sprite Editor](sprite-editor.md)
+[基础](basics.md) |
+[精灵编辑器](sprite-editor.md)

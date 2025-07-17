@@ -7,12 +7,12 @@
 * 精灵的[颜色模式](color-mode.md)
 * [颜色配置文件](color-profile.md)
 * 以及[透明颜色](transparent-color.md)
-  （仅适用于[索引图像](color-mode.md#indexed)）
+  （仅适用于[索引图像](color-mode.md#索引)）
 
 除此之外，还有两种活动颜色可用于绘制或擦除精灵的部分内容：
 
-* 当前活动的[前景色](color-bar.md#foreground-color)
-* 当前活动的[背景色](color-bar.md#background-color)
+* 当前活动的[前景色](color-bar.md#前景色)
+* 当前活动的[背景色](color-bar.md#背景色)
 
 ## 颜色模式
 

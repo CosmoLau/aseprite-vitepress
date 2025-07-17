@@ -1,4 +1,4 @@
-# 选框
+# 选择
 
 你可以使用其中一种选框工具来选择精灵的部分区域，
 例如选框工具 ![选框工具图标](tools/marquee-tool.png)（<kbd>M</kbd> 键），
@@ -7,7 +7,7 @@
 [蚂蚁线](https://en.wikipedia.org/wiki/Marching_ants)效果：
 ![蚂蚁线](selecting/marching-ants.gif)
 
-当你进行选框时，你选择的是活动的 [帧](cel.md)，因此所有变换操作都只会应用于该特定帧。
+当你进行选框时，你选择的是活动的 [单元格](cel.md)，因此所有变换操作都只会应用于该特定单元格。
 
 ## 添加/减去/相交
 

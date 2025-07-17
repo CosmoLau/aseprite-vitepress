@@ -46,8 +46,9 @@ export default defineAdditionalConfig({
 function nav(): DefaultTheme.NavItem[] {
     return [
         { text: '主页', link: '/zh/' },
-        { text: '文档', link: '/zh/docs/overview', activeMatch: '/zh/docs/' },
-        { text: 'API 参考', link: '/zh/api/README', activeMatch: '/zh/api/' },
+        { text: '文档', link: '/zh/docs/overview' },
+        { text: 'API 参考', link: '/zh/api/README' },
+        { text: '教程', link: '/zh/docs/tutorial' },
     ]
 }
 
@@ -65,7 +66,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
                 { text: '图片与精灵', link: 'sprite' },
                 { text: '色彩', link: 'color' },
                 { text: '绘制', link: 'drawing' },
-                { text: '选框', link: 'selecting' },
+                { text: '选择', link: 'selecting' },
                 { text: '变换', link: 'transformations' },
             ],
         },

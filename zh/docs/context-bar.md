@@ -1,51 +1,49 @@
-# Context Bar
+# 上下文栏
 
-(*Work-in-progress*)
+(*开发中*)
 
-The context bar shows specific options for the active tool. It also
-changes depending on the state of the active document, e.g. when we
-move the selection.
+上下文栏会显示当前激活工具的特定选项。它还会根据当前激活文档的状态发生变化，例如当我们移动选区时。
 
-![Context bar](context-bar/contextbar.png)
+![上下文栏](context-bar/contextbar.png)
 
-## Pencil-like tools
+## 类铅笔工具
 
-This is the context bar for the Pencil tool:
+这是铅笔工具的上下文栏：
 
-![Context bar for pencil tool](context-bar/pencil.png)
+![铅笔工具的上下文栏](context-bar/pencil.png)
 
-The first elements are Brush type/shape:
+第一个元素是笔刷类型/形状：
 
-![Brush type](context-bar/brushtype.png)
+![笔刷类型](context-bar/brushtype.png)
 
-The brush size (in pixels):
+笔刷尺寸（以像素为单位）：
 
-![Brush size](context-bar/brushsize.png)
+![笔刷尺寸](context-bar/brushsize.png)
 
-And the brush angle:
+以及笔刷角度：
 
-![Brush angle](context-bar/brushangle.png)
+![笔刷角度](context-bar/brushangle.png)
 
-It's useful for line brush type:
+它对线条笔刷类型很有用：
 
-![Selet brush angle](context-bar/brushangle-change.gif)
+![选择笔刷角度](context-bar/brushangle-change.gif)
 
-## Selection tools
+## 选框工具
 
-![Selection tool](context-bar/selection.png)
+![选框工具](context-bar/selection.png)
 
-## Moving selection
+## 移动选框工具
 
-(*Work-in-progress*)
+(*开发中*)
 
-![Moving selection](context-bar/selection.png)
+![移动选框工具](context-bar/selection.png)
 
-## Eyedropper
+## 吸管工具
 
-(*Work-in-progress*)
+(*开发中*)
 
-## Paint Bucket tool
+## 油漆桶工具
 
-(*Work-in-progress*)
+(*开发中*)
 
-![Paint bucket](context-bar/paintbucket.png)
+![油漆桶](context-bar/paintbucket.png)

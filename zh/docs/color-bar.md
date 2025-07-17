@@ -1,52 +1,43 @@
-# Color bar
+# 颜色栏
 
-The color bar shows the palette for the active sprite:
+颜色栏显示当前活动精灵的调色板：
 
-![Color bar](color-bar/color-bar.png)
+![颜色栏](color-bar/color-bar.png)
 
-Each color can be identified by its index, starting from 0 to 255.
+每个颜色都可以通过其索引进行标识，从 0 到 255。
 
-With <kbd>Left click</kbd> you can select the foreground color, and with <kbd>Right click</kbd>
-the background color. With the <kbd>X</kbd> key you can swap these colors.
+使用 <kbd>左键单击</kbd> 可以选择前景色，使用 <kbd>右键单击</kbd> 可以选择背景色。使用 <kbd>X</kbd> 键可以交换这两种颜色。
 
-Depending on the active sprite [color mode](color-mode.md):
+根据活动精灵的[颜色模式](color-mode.md)：
 
-* On Indexed images, the color bar shows all the available colors to
-  be used in the sprite. You cannot use colors that are not present in
-  the palette, except by modifying the palette itself with
-  the `Edit Palette` button or <kbd>F4</kbd> key.
+* 在索引图像中，颜色栏会显示精灵中可使用的所有可用颜色。除非使用 `编辑调色板` 按钮或 <kbd>F4</kbd> 键修改调色板本身，否则无法使用调色板中不存在的颜色。
 
-* On RGB images the color bar shows a palette of colors to pick from,
-  but the sprite doesn't depend on the palette, you can modify it and
-  the sprite will look the same. This means you are free to use colors
-  inside the sprite that aren't present in the palette.
+* 在 RGB 图像中，颜色栏会显示一个可供选择的调色板，但精灵并不依赖于该调色板，你可以修改调色板，而精灵的外观不会改变。这意味着你可以在精灵中自由使用调色板中不存在的颜色。
 
-## Foreground Color
+## 前景色
 
-Color used to draw with the <kbd>Left click</kbd>. If you click the button you
-will see a popup window to select colors using
-[RGB](http://en.wikipedia.org/wiki/RGB_color_model) or
-[HSB](http://en.wikipedia.org/wiki/HSL_and_HSV) sliders:
+用于使用 <kbd>左键单击</kbd> 进行绘制的颜色。点击该按钮后，你将看到一个弹出窗口，可使用
+[RGB](http://en.wikipedia.org/wiki/RGB_color_model) 或
+[HSB](http://en.wikipedia.org/wiki/HSL_and_HSV) 滑块来选择颜色：
 
-![Color Popup](color-bar/color-popup.png)
+![颜色弹窗](color-bar/color-popup.png)
 
-The little warning icon ![warning icon](color-bar/color-warning-icon.png) can be
-pressed to add the color to the palette if it's not present:
+小警告图标 ![warning icon](color-bar/color-warning-icon.png) 可用于在颜色不在调色板中时，点击将该颜色添加到调色板：
 
-![Color Warning](color-bar/color-warning.png)
+![颜色警告](color-bar/color-warning.png)
 
-## Background Color
+## 背景色
 
-Color used to draw with the <kbd>Right click</kbd>.
+使用 <kbd>右键单击</kbd> 进行绘制时所用的颜色。
 
-This color is also used to clear the `Background` layer in several situations:
+在以下几种情况下，该颜色还可用于清除 `背景` 图层：
 
-* When the selection is cleared (*Edit > Clear* menu), or
-* When a new empty frame is added (*Frame > New Empty Frame* menu)
-* When a transparent layer is converted to Background (*Layer > Background from Layer* menu)
+* 当选区被清除时（*编辑 > 清除* 菜单），或者
+* 当添加新的空白帧时（*帧 > 新建空白帧* 菜单）
+* 当透明图层转换为背景图层时（*图层 > 从图层新建背景* 菜单）
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Color](color.md)
+[色彩](color.md)

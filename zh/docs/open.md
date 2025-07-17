@@ -1,10 +1,10 @@
-# Open
+# 打开
 
-You can load your sprite and continue working on it using *File > Open* menu.
+你可以使用 *文件 > 打开* 菜单选项加载你的精灵并继续工作。
 
-## Loading image sequences
+## 加载图像序列
 
-If you have a sequence of images like:
+如果你有一系列图像，比如：
 
 * `frame0.png`
 * `frame1.png`
@@ -12,15 +12,13 @@ If you have a sequence of images like:
 * ...
 * `frameN.png`
 
-You can load this sequence as one animation using *File > Open* menu,
-selecting `frame0.png`, and then answering *Yes* to the following
-dialog that will appear:
+你可以使用 *文件 > 打开* 菜单将这一序列加载为一个动画，
+选择 `frame0.png`，然后在随后出现的对话框中回答 *是*：
 
-![Load sequence confirmation](open/loadsequence.png)
+![加载序列确认](open/loadsequence.png)
 
 ---
 
-**SEE ALSO**
-
-[Save](save.md) |
-[Exporting](exporting.md)
+**参阅**
+[保存](save.md) |
+[导出](exporting.md)

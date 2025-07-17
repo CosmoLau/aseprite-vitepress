@@ -1,34 +1,27 @@
-# Symmetry
+# 对称
 
-To paint symmetrical sprites, you can use the Symmetry options available
-from from *View > Symmetry Options* menu. This will show you
-the following buttons in the [context bar](context-bar.md):
+要绘制对称的精灵，你可以使用 *视图 > 对称选项* 菜单中的对称选项。这将在 [上下文栏](context-bar.md) 中显示以下按钮：
 
-![Symmetry Options](symmetry/symmetry-buttons.png)
+![对称选项](symmetry/symmetry-buttons.png)
 
-* ![Horizontal Symmetry Icon](symmetry/horizontal-icon.png) Enables
-  the Horizontal Symmetry
-* ![Vertical Symmetry Icon](symmetry/vertical-icon.png) Enables the
-  Vertical Symmetry
-* ![Symmetry Options Icon](symmetry/options-icon.png) Shows a popup
-  menu with a *Reset Symmetry to Center* option
+* ![水平对称图标](symmetry/horizontal-icon.png) 启用水平对称
+* ![垂直对称图标](symmetry/vertical-icon.png) 启用垂直对称
+* ![对称选项图标](symmetry/options-icon.png) 显示一个弹出菜单，其中包含 *重置对称为中心* 选项
 
-When you enable one symmetry axis (e.g. horizontal symmetry/vertical
-axis) you can drag-and-drop on-screen handles to configure the
-position of the axis:
+当你启用一个对称轴（例如水平对称/垂直轴）时，你可以拖放屏幕上的控制柄来配置轴的位置：
 
-![Drag symmetry handles](symmetry/drag-handles.gif)
+![拖拽对称控制器](symmetry/drag-handles.gif)
 
-Then just drawing will paint in both sides of the image:
+然后，只需进行绘制，图像的两侧都会被绘制：
 
-![Draw with symmetry](symmetry/draw-with-symmetry.gif)
+![绘制对称图像](symmetry/draw-with-symmetry.gif)
 
-You can put the axis in the middle of a pixel if you need to:
+你可以将轴放在像素的中间，如果需要的话：
 
-![Symmetry in the middle of a pixel](symmetry/mid-pixel.gif)
+![对称图像的中间像素](symmetry/mid-pixel.gif)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Drawing](drawing.md)
+[绘制](drawing.md)

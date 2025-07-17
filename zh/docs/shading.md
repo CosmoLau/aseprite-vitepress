@@ -1,35 +1,32 @@
-# Shading
+# 遮光模式
 
-The shading [ink](ink.md) can be used to create shadows in our sprites. We can
-use left and right click to move colors between a gradient (given by
-the selected colors in the [color bar](color-bar.md)):
+遮光模式 [墨水](ink.md) 可用于在我们的精灵中创建阴影。我们可以
+使用左键和右键在渐变（由[颜色栏](color-bar.md)中选定的颜色确定）之间移动颜色：
 
-![Shading reference](shading/shading_ref.png)
+![遮光模式参考](shading/shading_ref.png)
 
-The steps to use this ink are:
+使用此墨水的步骤如下：
 
-First of all we draw something to add light or shadows with a base
-color:
+首先，我们用一种基础颜色绘制一些内容，以便添加光照或阴影：
 
-![Draw base](shading/shading_step1.gif)
+![绘制基础内容](shading/shading_step1.gif)
 
-Then we select the "Shading" ink mode, and select a set of colors from
-the palette, including the previously selected base color. This
-gradient will act as shadows and light:
+然后，我们选择“遮光模式”墨水模式，并从调色板中选择一组颜色，其中包括之前选定的基础颜色。这个
+渐变将用于表示阴影和光照：
 
-![Select a gradient](shading/shading_step2.gif)
+![选择渐变](shading/shading_step2.gif)
 
-You can use left click to move colors to the left of the gradient:
+你可以使用左键将颜色移动到渐变的左侧：
 
-![Shading left click](shading/shading_step3.gif)
+![遮光模式左键操作](shading/shading_step3.gif)
 
-Or you can use right click to move colors to the right:
+或者，你可以使用右键将颜色移动到右侧：
 
-![Shading right click](shading/shading_step4.gif)
+![遮光模式右键操作](shading/shading_step4.gif)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Drawing](drawing.md) |
-[Ink](ink.md)
+[绘制](drawing.md) |
+[墨水](ink.md)

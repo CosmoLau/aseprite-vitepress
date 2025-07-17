@@ -47,7 +47,7 @@
 
 ## 右键的替代功能
 
-默认情况下，<kbd>右键点击</kbd> 使用 [背景颜色](color-bar.md#background-color) 进行绘制，
+默认情况下，<kbd>右键点击</kbd> 使用 [背景色](color-bar.md#背景色) 进行绘制，
 但你可以从 [*编辑 > 首选项 > 编辑器*](right-click.md) 更改此配置。
 
 ---

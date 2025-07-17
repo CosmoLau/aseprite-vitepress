@@ -1,25 +1,24 @@
-# Selected Range
+# 选择范围
 
-In the [timeline](timeline.md) you can select a range of frames:
+在 [时间轴](timeline.md) 中，你可以选择一系列帧：
 
 <img src="./range/frames-range.png" alt="Frames Range " class="x2" />
 
-A range of layers:
+一系列图层：
 
 <img src="./range/layers-range.png" alt="Layers Range " class="x2" />
 
-Or a range of cels:
+或者选择一系列的单元格：
 
 <img src="./range/cels-range.png" alt="Cels Range " class="x2" />
 
-After selecting the range you can do several operations with it like:
+选择范围后，你可以对其执行以下几种操作：
 
-* [moving frames](move-frames.md) or [tagging frames](tags.md), or
-* [changing the order of layers](move-layers.md), or
-* [moving cels](move-cels.md).
+* [移动帧](move-frames.md) 或 [标记帧](tags.md)，或
+* [更改图层顺序](move-layers.md)，或
+* [移动单元格](move-cels.md)。
 
 ---
 
-**SEE ALSO**
-
-[Timeline](timeline.md)
+**参阅**
+[时间轴](timeline.md)

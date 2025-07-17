@@ -1,35 +1,26 @@
-# Sprite Properties
+# 精灵属性
 
-You can change some sprite properties from *Sprite > Properties* menu (<kbd>Ctrl+P</kbd> or <kbd>⌘P</kbd>):
+你可以从 *精灵 > 属性* 菜单（<kbd>Ctrl+P</kbd> 或 <kbd>⌘P</kbd>）更改一些精灵属性：
 
-![Sprite Properties dialog](sprite-properties/sprite-properties.png)
+![精灵属性对话框](sprite-properties/sprite-properties.png)
 
-You can:
+你可以：
 
-* Change [transparent color](transparent-color.md) (for [indexed color mode](color-mode.md#indexed))
-* Change pixel aspect ratio
-* Assign or convert the color profile [color profile](color-profile.md)
+* 更改 [透明颜色](transparent-color.md)（适用于 [索引颜色模式](color-mode.md#indexed)）
+* 更改像素横纵比
+* 分配或转换 [颜色配置文件](color-profile.md)
 
-## Color Profile
+## 颜色配置文件
 
-In the *Sprite Properties* dialog you have two buttons: one to **Assign** other
-color profile, and other to **Convert** to other color profile:
+在 *精灵属性* 对话框中，你有两个按钮：一个用于 **分配** 其他颜色配置文件，另一个用于 **转换** 为其他颜色配置文件：
 
-* If you **Assign** a new color profile to the sprite, pixel values
-  will not be modified, just the new color profile is assigned to the
-  sprite. You will notice that colors will change in the picture
-  because now RGB values are the same, but the [color space](color-profile.md)
-  has changed. E.g. so now, the "pure red" value (255, 0, 0), might be
-  different that the previous "pure red").
-* If you **Convert** the color profile, pixel values will be converted
-  from one color space to the other color space, so colors should not
-  be visually different, but each RGB value will be adjusted to the
-  new color space (so almost all pixel values will be modified).
+* 如果你为精灵 **分配** 一个新的颜色配置文件，像素值不会被修改，只是将新的颜色配置文件分配给精灵。你会注意到图片中的颜色会发生变化，因为现在 RGB 值保持不变，但 [颜色配置文件](color-profile.md) 已经改变。例如，现在的 “纯红色” 值 (255, 0, 0) 可能与之前的 “纯红色” 不同。
+* 如果你 **转换** 颜色配置文件，像素值将从一个颜色空间转换到另一个颜色空间，因此颜色在视觉上应该不会有差异，但每个 RGB 值都会调整到新的颜色空间（因此几乎所有像素值都会被修改）。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[New Sprite](new-sprite.md) |
-[Color Profile](color-profile.md) |
-[Transparent Color](transparent-color.md)
+[新建精灵](new-sprite.md) |
+[颜色配置文件](color-profile.md) |
+[透明颜色](transparent-color.md)

@@ -1,49 +1,41 @@
-# Preferences Folder
+# 首选项文件夹
 
-Aseprite configuration is stored in several files in the personal user
-configuration directory:
+Aseprite 的配置信息存储在个人用户配置目录下的多个文件中：
 
-![Files in Preferences Folder](preferences/preffiles.png)
+![首选项文件夹中的文件](preferences/preffiles.png)
 
-You can access this folder from *Edit > Preferences > Locate
-Configuration File* option.
+你可以通过 *编辑 > 首选项 > 定位配置文件* 选项访问此文件夹。
 
-Anyway, you can manually locate that folder in different ways
-depending on your platform:
+无论如何，你可以根据不同的平台，通过多种方式手动定位该文件夹：
 
-## On Windows
+## 在 Windows 系统上
 
-You can locate the preferences folder pressing the <kbd>Windows key + R</kbd>
-key (or `Start menu > Run...` option). This will show the dialog to
-run a program. Then you write:
+你可以通过按下 <kbd>Windows 键 + R</kbd> 组合键（或选择 `开始菜单 > 运行...` 选项）来定位首选项文件夹。这将弹出运行程序的对话框。然后输入：
 
     %AppData%\Aseprite
 
-And press `Enter` key.
+并按下 `Enter` 键。
 
-## On macOS
+## 在 macOS 系统上
 
-You can open the Spotlight Search (<kbd>⌘Space</kbd>) and then paste the following text
-`~/Library/Application Support/Aseprite` with <kbd>⌘V</kbd> and press <kbd>Enter</kbd>:
+你可以通过打开 Spotlight 搜索（<kbd>⌘Space</kbd>）并粘贴以下文本来定位首选项文件夹：
+`~/Library/Application Support/Aseprite` 并按下 <kbd>⌘V</kbd> 键。
 
-   ![Spotlight Search](preferences/spotlight.png)
+   ![Spotlight 搜索](preferences/spotlight.png)
 
-## On Linux
+## 在 Linux 系统上
 
-Open a Terminal, paste the following command and press <kbd>Enter</kbd>
+打开终端，粘贴以下命令并按下 <kbd>Enter</kbd> 键：
 
     xdg-open ~/.config/aseprite
 
-## Special Configuration
+## 特殊配置
 
-Since Aseprite v1.2.16.3, and for testing purposes, you can
-reconfigure the location of the preferences folder using the
-`ASEPRITE_USER_FOLDER` [environment variable](https://en.wikipedia.org/wiki/Environment_variable)
-pointing to other folder.
+自 Aseprite v1.2.16.3 版本起，出于测试目的，你可以使用指向其他文件夹的 `ASEPRITE_USER_FOLDER` [环境变量](https://en.wikipedia.org/wiki/Environment_variable) 来重新配置首选项文件夹的位置。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Preferences](preferences.md) |
-[Reset Preferences](reset-preferences.md)
+[首选项](preferences.md) |
+[重置首选项](reset-preferences.md)

@@ -1,24 +1,21 @@
-# Canvas Size
+# 画布尺寸
 
-The canvas is the visible area of the sprite. You can change the
-canvas size using *Sprite > Canvas Size...* menu.
+画布是精灵的可见区域。你可以使用 *精灵 > 画布尺寸...* 菜单来更改画布大小。
 
-> Note: Resizing the canvas updates all slices accordingly, changing their position.
+> 注意：调整画布大小会相应地更新所有切片，并更改它们的位置。
 
-![Canvas Preview](canvas/canvas.gif)
+![画布预览](canvas/canvas.gif)
 
-In this window you can change the `Width` or `Height` manually, or
-using the blue rules in the editor window.
+在这个窗口中，你可以手动更改 `宽度` 或 `高度`，也可以使用编辑器窗口中的蓝色标尺进行更改。
 
-## Crop
+## 裁剪
 
-You can change the canvas size using the current selection bounds:
+你可以使用当前选择边界更改画布大小：
 
-![Crop Preview](canvas/crop.gif)
+![裁剪预览](canvas/crop.gif)
 
-## Trim
+## 修剪
 
-You can remove transparent borders automatically from the canvas
-using the *Sprite > Trim* menu.
+你可以使用 *精灵 > 修剪* 菜单自动从画布中移除透明边框。
 
-![Trim Preview](canvas/canvas-trim.gif)
+![修剪预览](canvas/canvas-trim.gif)

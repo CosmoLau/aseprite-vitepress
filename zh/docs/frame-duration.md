@@ -1,16 +1,13 @@
-# Frame Duration
+# 帧持续时间
 
-You can change the duration of the current frame with *Frame > Frame
-Properties* menu (<kbd>P</kbd> key).
+你可以使用 *帧 > 帧属性* 菜单（<kbd>P</kbd> 键）更改当前帧的持续时间。
 
-Also you change the duration of several frames selecting a range of
-frames in the [Timeline](timeline.md), right clicking them, and
-selecting *Properties* option in the popup:
+你也可以在 [时间轴](timeline.md) 中选择一系列帧，右键点击它们，然后在弹出菜单中选择 *属性* 选项来更改多个帧的持续时间：
 
-![Timeline Right Click](frame-duration/timeline-right-click.gif)
+![时间轴右键点击](frame-duration/timeline-right-click.gif)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Animation](animation.md)
+[动画](animation.md)

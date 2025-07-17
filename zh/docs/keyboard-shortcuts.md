@@ -1,128 +1,87 @@
-# Keyboard Shortcuts
+# 键盘快捷键
 
-You can customize the keyboard shortcuts or the combination of keys +
-[mouse wheel](mouse-wheel.md) (or [mouse movement](drag-value.md))
-from *Edit > [Keyboard Shortcuts](keyboard-shortcuts.md)*
-menu option or <kbd>Ctrl+Alt+Shift+K</kbd> key (or <kbd>⌥⇧⌘K</kbd> on macOS).
+你可以通过 *编辑 > [键盘快捷键](keyboard-shortcuts.md)* 
+菜单选项或 <kbd>Ctrl+Alt+Shift+K</kbd> 键（在 macOS 上为 <kbd>⌥⇧⌘K</kbd>）来自定义键盘快捷键，或自定义按键 + 
+[鼠标滚轮](mouse-wheel.md)（或 [鼠标移动](drag-value.md)）的组合。
 
-There is a general overview of the default keyboard shortcuts in the [Quick Reference](/quickref/) page.
+在 [快速参考](/quickref/) 页面中提供了默认键盘快捷键的总体概述。
 
-## Menus & Commands
+## 菜单与命令
 
-In these sections you will find a way to assign a key to every
-action/command in Aseprite that is accessible from the [menu bar](menu-bar.md)
-and other commands that are not part of the main menu but are still
-accessible for advanced users (e.g. "Set Ink Type"
-is not associated to any menu or has default keyboard shortcut, but
-you can assign a key from the "Commands" section).
+在这些部分中，你将找到为 Aseprite 中每个可从 [菜单栏](menu-bar.md) 访问的操作/命令分配按键的方法，以及为不属于主菜单但仍可供高级用户使用的其他命令分配按键的方法（例如，“设置墨水类型” 不与任何菜单关联，也没有默认的键盘快捷键，但你可以从 “命令” 部分分配一个按键）。
 
-Remember to use the search field in this dialog to filter and find a
-specific command.
+请记得使用此对话框中的搜索字段来过滤和查找特定命令。
 
-## Tools
+## 工具
 
-In the Tools section you will find a way to see and change the keys
-associated with each tool from the [Tool Bar](tool-bar.md). There are
-two main considerations:
+在 “工具” 部分，你可以查看和修改与 [工具栏](tool-bar.md) 中每个工具关联的按键。主要有两点需要考虑：
 
-1. Two or more tools can share the same key. In this case pressing the
-   key multiple times will switch/go through all the tools that have
-   the same key assigned. E.g. <kbd>U</kbd> key is assigned to the
-   ![Rectangle icon](tools/rectangle-tool.png) Rectangle and
-   ![Filled Rectangle icon](tools/filled-rectangle-tool.png) Filled Rectangle
-   by default, so pressing one time
-   will select the Rectangle tool, and pressing it a second time will
-   switch to the Filled Rectangle.
-2. There are two ways to select a tool:
-   * A regular way to change the
-     active tool, it's when you press a key and the active tool changes so
-     all the following mouse buttons will interact with that tool.
-     E.g. pressing the <kbd>P</kbd> key switches to the ![Pencil icon](tools/pencil-tool.png) Pencil
-     tool, or the <kbd>H</kbd> key selects the ![Hand icon](tools/hand-tool.png) Hand
-     tool as the active one, so then you can pan the [sprite editor](sprite-editor.md)
-     just dragging it with the left mouse button + moving the mouse
-     without pressing any other key.
-   * An alternative quick way (identified as "(quick)" in the *Keyboard Shortcuts* dialog)
-     where the tool is active while you keep the key pressed (and then Aseprite
-     returns to the previously selected tool when you release the key).
-     This happens with the <kbd>Alt</kbd> key to select the ![Eyedropper icon](tools/eyedropper-tool.png) Eyedropper tool
-     or the <kbd>Space bar</kbd> key to select the ![Hand icon](tools/hand-tool.png) Hand tool temporarily.
-     Here an example of how the ![Hand icon](tools/hand-tool.png) Hand tool
-     looks in the configuration:
+1. 两个或多个工具可以共享同一个按键。在这种情况下，多次按下该按键会在所有分配了相同按键的工具之间切换。例如，默认情况下，<kbd>U</kbd> 键分配给了 ![矩形图标](tools/rectangle-tool.png) 矩形工具和 ![填充矩形图标](tools/filled-rectangle-tool.png) 填充矩形工具，因此按一次会选择矩形工具，按第二次会切换到填充矩形工具。
+2. 选择工具的方式有两种：
+   * 更改活动工具的常规方式：按下某个按键后，活动工具会发生改变，后续所有鼠标操作都将与该工具进行交互。
+     例如，按下 <kbd>P</kbd> 键会切换到 ![Pencil icon](tools/pencil-tool.png) 铅笔工具，按下 <kbd>H</kbd> 键会将 ![Hand icon](tools/hand-tool.png) 抓手工具设为活动工具，这样你就可以在不按下其他任何按键的情况下，通过按住鼠标左键并移动鼠标来平移 [精灵编辑器](sprite-editor.md)。
+   * 另一种快速方式（在 *键盘快捷键* 对话框中标记为 “(快速)”）
+     在这种方式下，按住按键时工具处于激活状态（松开按键后，Aseprite
+     会恢复到之前选择的工具）。
+     例如，按住 <kbd>Alt</kbd> 键可临时选择 ![吸管图标](tools/eyedropper-tool.png) 吸管工具，
+     按住 <kbd>空格键</kbd> 可临时选择 ![抓手图标](tools/hand-tool.png) 抓手工具。
+     以下是 ![抓手图标](tools/hand-tool.png) 抓手工具在配置中的示例：
 
-     ![Hand tool example](keyboard-shortcuts/hand-shortcuts.png)
+     ![抓手工具示例](keyboard-shortcuts/hand-shortcuts.png)
 
-## Action Modifiers
+## 动作修改器
 
-These actions depend on a specific context in Aseprite, for example
-when you have a selection tool, or you are scaling a selection, etc.
-The given keys are the default options.
+这些操作依赖于 Aseprite 中的特定上下文，例如
+当你使用选择工具时，或者你正在缩放选区时，等等。
+给出的按键为默认选项。
 
-The following is the list of contexts and the possible actions inside
-that context:
+以下是各种上下文及其在该上下文中可能执行的操作列表：
 
-* **Freehand Tool**: When the ![Pencil icon](tools/pencil-tool.png) Pencil tool
-  is active.
-  * **Straight Line from Last Point**: Use the <kbd>Shift</kbd> key
-    to create a straight line from the last painted pixel with the brush.
-  * **Angle Snap from Last Point**: Add the <kbd>Ctrl</kbd> key
-    to snap the angle of that straight line.
+* **自由绘制工具**：当 ![铅笔图标](tools/pencil-tool.png) 铅笔工具处于活动状态时。
+  * **从最后绘制点绘制直线**：使用 <kbd>Shift</kbd> 键
+    从画笔最后绘制的像素点开始绘制一条直线。
+  * **从最后绘制点进行角度对齐**：按下 <kbd>Ctrl</kbd> 键
+    可对齐该直线的角度。
 
-* **Move Tool**: When you are using the ![Move Tool Icon](tools/move-tool.png) Move tool.
-  * **Auto Select Layer**: If you press the <kbd>Ctrl</kbd> (or <kbd>⌘</kbd> on macOS)
-    you'll select the layer that is above the cursor with a single click.
-* **Shape Tool**: These keys can be used while you are drawing (after pressing & before releasing the mouse button)
-  with a rectangular or elliptical-like tool (e.g.  ![Rectangle Icon](tools/rectangle-tool.png) Rectangle,
-  ![Ellipse Icon](tools/ellipse-tool.png) Ellipse,
-  ![Rectangular Marquee Icon](tools/marquee-tool.png) Rectangular Marquee, etc.).
-  * **Square Aspect**: You can use the <kbd>Shift</kbd> key to create a square or a circle.
-  * **Draw From Center**: You can use the point where the mouse was
-    pressed as the center of the shape when pressing the <kbd>Ctrl</kbd> key, e.g. to create an ellipse specifying the center (instead of both corners).
-  * **Rotate Shape**: Pressing the <kbd>Alt</kbd> you start rotating the shape.
-  * **Move Origin**: You can press the <kbd>Space</kbd> key to move the
-    whole shape to a new position before releasing the mouse button, just in case
-    the origin was not specified correctly.
-* **Selection**: When we have any selection tool we can use some keys to
-  change what to do with the selected area.
-  * **Add/Subtract/Intersect Selection**: These options
-    are explained in the [Selecting](selecting.md#add/subtract/intersect) section.
-* **Translating Selection**: When you're moving the selection.
-  * **Snap To Grid**: Pressing <kbd>Alt</kbd> the selection will snap to grid.
-  * **Lock Axis**: You can use <kbd>Shift</kbd> to lock the movement in the X or Y axis only.
-  * **Copy Selection**: With <kbd>Ctrl</kbd> key you can copy the
-    selection if you press it *before* you start moving the
-    selection.
-  * **Fine Translating**: When you are moving the selection, pressing
-    the <kbd>Ctrl</kbd> will start a fine-tuning movement (not only
-    pixel by pixel, but by subpixels).
-* **Scaling Selection**: When you're scaling the selection.
-  * **Maintain Aspect Ratio**: Press <kbd>Shift</kbd> key to keep the
-    ratio between width/height intact.
-  * **Scale From Center**: Scale from the center (or current pivot
-    position) using the <kbd>Alt</kbd> key.
-  * **Fine Scaling**: When you are scaling the selection, pressing
-    the <kbd>Ctrl</kbd> will start a fine-tuning scaling (not only
-    pixel by pixel, but by subpixels).
-* **Rotating Selection**: When you're rotating the selection.
-  * **Angle Snap**: You can use the <kbd>Shift</kbd> key to snap the
-    angle to angles of 26.6°, 45°, 90°, etc.
+* **移动工具**：当你使用 ![移动工具图标](tools/move-tool.png) 移动工具时。
+  * **自动选择图层**：按下 <kbd>Ctrl</kbd> 键（在 macOS 上为 <kbd>⌘</kbd>）
+    单击鼠标即可选择光标上方的图层。
+* **形状工具**：在使用矩形或椭圆形工具（例如 ![矩形图标](tools/rectangle-tool.png) 矩形、
+  ![椭圆图标](tools/ellipse-tool.png) 椭圆、
+  ![矩形选框图标](tools/marquee-tool.png) 矩形选框等）绘制时（按下鼠标按钮后且释放前），可以使用这些按键。
+  * **正方形/正圆形**：你可以使用 <kbd>Shift</kbd> 键来创建正方形或圆形。
+  * **从中心绘制**：你可以在按下 <kbd>Ctrl</kbd> 键时，将鼠标按下的点作为形状的中心，例如指定中心来创建椭圆（而非指定两个角）。
+    按下 <kbd>Ctrl</kbd> 键时，以鼠标按下的点作为形状的中心，例如指定中心来创建椭圆（而非指定两个角）。
+  * **旋转形状**：按下 <kbd>Alt</kbd> 键可开始旋转形状。
+  * **移动原点**：你可以按下 <kbd>空格键</kbd> 在释放鼠标按钮之前将整个形状移动到新位置，以防原点指定不正确。
+* **选择**：当我们使用任意选框工具时，可以使用一些按键来更改对所选区域的操作。
+  * **添加/减去/相交选区**：这些选项
+    在 [选择](selecting.md#添加减去相交) 部分有详细说明。
+* **移动选区**：当你正在移动选区时。
+  * **对齐网格**：按下 <kbd>Alt</kbd> 键，选区将对齐到网格。
+  * **锁定轴**：你可以使用 <kbd>Shift</kbd> 键仅锁定 X 轴或 Y 轴的移动。
+  * **复制选区**：在开始移动选区 *之前* 按下 <kbd>Ctrl</kbd> 键，即可复制选区。
+  * **精细平移**：当你移动选区时，按下 <kbd>Ctrl</kbd> 键将开始精细调整移动（不仅可以逐像素移动，还可以进行亚像素移动）。
+* **缩放选区**：当你正在缩放选区时。
+  * **保持纵横比**：按下 <kbd>Shift</kbd> 键可保持宽度和高度之间的比例不变。
+  * **从中心缩放**：使用 <kbd>Alt</kbd> 键从中心（或当前枢轴位置）进行缩放。
+  * **精细缩放**：当你正在缩放选区时，按下 <kbd>Ctrl</kbd> 键将开始精细调整缩放（不仅可以逐像素缩放，还可以进行亚像素缩放）。
+* **旋转选区**：当你正在旋转选区时。
+  * **角度对齐**：你可以使用 <kbd>Shift</kbd> 键将角度对齐到 26.6°、45°、90° 等。
 
-* **Trigger Left/Right Mouse Button**: You can configure a specific
-  key to simulate the left/right mouse buttons inside the [sprite
-  editor](sprite-editor.md).
+* **触发鼠标左键/右键**：你可以配置一个特定的
+  按键，以在 [精灵编辑器](sprite-editor.md) 内模拟鼠标左键/右键。
 
-## Keyboard + Mouse
+## 键盘 + 鼠标
 
-You can configure to trigger some special actions when a key is
-pressed and the mouse wheel is moved (or the mouse itself is moved in
-a specific axis):
+你可以配置为在按下某个按键并转动鼠标滚轮时（或鼠标沿特定轴移动时）触发一些特殊操作：
 
-* [Mouse Wheel](mouse-wheel.md)
-* [Drag Value](drag-value.md)
+* [鼠标滚轮](mouse-wheel.md)
+* [拖动值](drag-value.md)
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Preferences](preferences.md) |
-[Customization](customization.md)
+[首选项](preferences.md) |
+[自定义](customization.md)

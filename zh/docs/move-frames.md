@@ -1,18 +1,18 @@
-# Move Frames
+# 移动帧
 
-Use the [timeline](timeline.md) to move frames:
+使用[时间轴](timeline.md)来移动帧：
 
-![Move Frames](move-frames/move-frames.gif)
+![移动帧](move-frames/move-frames.gif)
 
-1. Select a range of frames you want to move.
-2. Put the mouse above the selection border.
-3. Start dragging the from selection border.
-4. Drop the frames where you want.
+1. 选择你想要移动的一系列帧。
+2. 将鼠标悬停在所选区域的边界上。
+3. 从所选区域的边界开始拖动。
+4. 在你想要的位置释放这些帧。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Copy Frames](copy-frames.md) |
-[Move Cels](move-cels.md) |
-[Timeline](timeline.md)
+[复制帧](copy-frames.md) |
+[移动单元格](move-cels.md) |
+[时间轴](timeline.md)

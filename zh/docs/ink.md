@@ -1,55 +1,43 @@
-# Ink
+# 墨水
 
 <img src="./ink/inks.png" alt="Inks" class="x2" />
 
-The ink modifies the way the [active tool](tool-bar.md) paints. The
-default ink is the *Simple Ink*.
+墨水会修改[活动工具](tool-bar.md)的绘制方式。默认的墨水是*简单墨水*。
 
-## Simple Ink
+## 简单墨水
 
-It acts in the following way:
+它的行为方式如下：
 
-1. If the [foreground color](color-bar.md#foreground-color) is opaque
-   (alpha = 255 = 100%), it paints with the given opaque color.
-1. If the color has alpha (0 < alpha < 255), it composite the color
-   with the layer surface.
-1. If the color is transparent (alpha = 0, Mask color), the tool acts
-   like an Eraser.
+1. 如果[前景色](color-bar.md#foreground-color)为不透明色
+   (alpha = 255 = 100%)，则使用指定的不透明颜色进行绘制。
+1. 如果颜色带有透明度 (0 < alpha < 255)，则将该颜色与图层表面进行混合。
+1. 如果颜色为透明色 (alpha = 0，遮罩颜色)，则该工具的行为类似于橡皮擦。
 
-## Alpha Compositing
+## Alpha 混合
 
-It merges the [foreground color](color-bar.md#foreground-color) with
-the layer surface depending on the alpha value of the foreground color:
+它会根据[前景色](color-bar.md#前景色)的透明度值，将前景色与图层表面进行混合：
 
-1. If alpha = 255 = 100%, the foreground color will be completely opaque.
-1. If alpha = 128 = 50%, the foreground color is merged 50% with the layer surface color.
-1. If alpha = 0 = 0%, the painting has no effect because the color is completely transparent.
+1. 如果 alpha = 255 = 100%，前景色将完全不透明。
+1. 如果 alpha = 128 = 50%，前景色将与图层表面颜色以 50% 的比例混合。
+1. 如果 alpha = 0 = 0%，绘制操作将不会产生任何效果，因为颜色完全透明。
 
-## Copy Alpha+Color
+## 复制 Alpha+颜色
 
-It replaces the layer surface pixels with the active foreground color
-with its alpha value. It doesn't make any kind of alpha compositing,
-it just takes the active color and put it exactly as it is in the
-destination pixel.
+它会用当前活动的前景色及其透明度值替换图层表面的像素。它不会进行任何形式的透明度合成，只是将当前活动颜色原样复制到目标像素中。
 
-E.g. In this case, if alpha = 128 = 50%, the final color will be the
-same as the foreground color with alpha = 128, ignoring the layer
-surface.
+例如，在这种情况下，如果透明度值 alpha = 128 = 50%，最终颜色将与透明度为 128 的前景色相同，而忽略图层表面的颜色。
 
-## Lock Alpha
+## 锁定 Alpha
 
-In this case the original alpha values from the layer surface are
-kept, and only the RGB color components are replaced from the
-foreground color.
+在这种情况下，图层表面的原始 alpha 值将被保留，仅用前景色替换 RGB 颜色分量。
 
-## Shading
+## 遮光模式
 
-See the [shading section](shading.md) for more information about this
-special ink for pixel-art.
+有关这种用于像素画的特殊墨水的更多信息，请参阅[遮光模式](shading.md)。
 
 ---
 
-**SEE ALSO**
+**参阅**
 
-[Drawing](drawing.md) |
-[Shading](shading.md)
+[绘制](drawing.md) |
+[遮光模式](shading.md)

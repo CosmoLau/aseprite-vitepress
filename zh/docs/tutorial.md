@@ -1,34 +1,38 @@
-# Aseprite Tutorials
+---
+sidebar: false
+outline: false
+aside: false
+---
+# Aseprite 教程
 
-## Tutorials by Users
+## 用户创作的教程
 
-Sometimes pixel-artists want to share their magical knowledge to the
-world. And we are grateful that they use Aseprite for this:
+有时，像素艺术家们希望将他们的奇妙知识分享给全世界。我们很感激他们为此选择了 Aseprite：
 
 <div class="row">
   <div class="col-md-6">
-    <h3>Thanks to <a href="https://twitter.com/AdamCYounis">Adam</a></h3>
+    <h3>感谢 <a href="https://twitter.com/AdamCYounis">Adam</a></h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/59Y6OTzNrhk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="col-md-6">
-   <h3>Thanks to <a href="https://twitter.com/mnrART">Mort</a></h3>
+   <h3>感谢 <a href="https://twitter.com/mnrART">Mort</a></h3>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/Md6W79jtLJM" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 <div class="row">
   <div class="col-md-6">
-   <h3>Thanks to <a href="https://www.youtube.com/c/SadfaceRL">Sadface</a></h3>
+   <h3>感谢 <a href="https://www.youtube.com/c/SadfaceRL">Sadface</a></h3>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLiWR21Q_oRcwK12QJGxWpUTy_QoPE1lTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div class="col-md-6">
-    <h3>Thanks to <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a></h3>
+    <h3>感谢 <a href="https://www.youtube.com/channel/UCdpT9OXQsizXnc6vkhtvgEg">JebbyGD</a></h3>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLPHvHCBMlIQ0FEEh0QM7MZlnVMoRGgUql" frameborder="0" allowfullscreen></iframe>
   </div>
 </div>
 
-## Common tasks and questions
+## 常见任务和问题
 
-### Animation
+### 动画
 
   * [Move several cels using Move tool](http://imgur.com/sG8dGbN) [(2)](http://imgur.com/jNSwKmL)
   * [Change Preview animation speed with right-click on Play button](http://imgur.com/wD1aoDM)
@@ -43,7 +47,7 @@ world. And we are grateful that they use Aseprite for this:
   * [Change onionskin extension/number of frames](http://imgur.com/hZyytnc) [(2)](http://imgur.com/cKZGGrb)
   * [Change cel opacity in several frames](http://imgur.com/7Ntp1eY)
 
-### Color/Palette
+### 颜色/调色板
 
   * [Copy/cut/paste/clear colors](http://imgur.com/YUq04tF) [(2)](http://imgur.com/O35BgGs)
   * [Edit palette colors with relative mode/sliders](http://imgur.com/IBIgdtv)
@@ -59,18 +63,18 @@ world. And we are grateful that they use Aseprite for this:
   * [Reduce a color palette](http://imgur.com/IfrVyfd)
   * [Dark and light a pixel color on a RGB sprite](http://imgur.com/t8Z8d2N)
 
-### Save/Export
+### 保存/导出
 
   * [Add padding/border/margin in exported Sprite Sheet](http://imgur.com/19Dl9wJ)
   * [Save as gif file](http://imgur.com/Rmr3P1j)
 
-### Misc
+### 其他
 
   * [Create new brush from selection or using Ctrl+B](http://imgur.com/2ke4Xgw)
   * [Flip the whole sprite](http://imgur.com/okxOor9)
   * [Rotate a selection](http://imgur.com/SDcDoYW)
 
-### User Interface
+### 用户界面
 
   * [Set colors in timeline elements](https://www.youtube.com/watch?v=YLzI0CoGrNg)
   * [Set grid size from selection or by numbers](http://imgur.com/7zYjw1R) [(2)](http://imgur.com/cbdZp2x)
@@ -81,7 +85,7 @@ world. And we are grateful that they use Aseprite for this:
   * [Report a crash/memory dump on Windows](http://imgur.com/9MTYI9k)
   * [Locate configuration file](http://imgur.com/PRZ4AaZ)
 
-## Demos
+## 演示
 
 * [Canvas size options/buttons](http://imgur.com/Jnkje0r)
 * [Brush shortcuts and modes](http://imgur.com/jyP6H7g)

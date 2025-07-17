@@ -1,9 +1,9 @@
-# Rotate Canvas
+# 旋转画布
 
-You can rotate the [whole canvas](canvas.md) using *Sprite > Rotate Canvas* menu. The available options are:
+你可以使用 *精灵 > 旋转画布* 菜单旋转 [整个画布](canvas.md)。可用选项为：
 
 * 180
 * 90 CW
 * 90 CCW
 
-![Rotate Canvas Preview](canvas/canvas-rotate.gif)
+![旋转画布预览](canvas/canvas-rotate.gif)
