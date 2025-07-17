@@ -1,3 +1,8 @@
+---
+sidebar: false
+outline: false
+aside: false
+---
 # Aseprite のチュートリアル
 
 ## ユーザーによるチュートリアル

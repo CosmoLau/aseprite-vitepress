@@ -32,8 +32,9 @@ export default defineAdditionalConfig({
 function nav(): DefaultTheme.NavItem[] {
     return [
         { text: 'ホームページ', link: '/jp/' },
-        { text: 'ドキュメント', link: '/jp/docs/overview', activeMatch: '/jp/docs/' },
-        { text: 'API リファレンス', link: '/jp/api/README', activeMatch: '/jp/api/' },
+        { text: 'ドキュメント', link: '/jp/docs/overview' },
+        { text: 'API リファレンス', link: '/jp/api/README' },
+        { text: 'チュートリアル', link: '/jp/docs/tutorial' },
     ]
 }
 

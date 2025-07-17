@@ -22,6 +22,7 @@ function nav(): DefaultTheme.NavItem[] {
         { text: 'Home', link: '/' },
         { text: 'Document', link: '/docs/overview' },
         { text: 'API Refence', link: '/api/README' },
+        { text: 'Tutorial', link: '/docs/tutorial' },
     ]
 }
 
