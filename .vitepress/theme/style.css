@@ -165,3 +165,7 @@ img { display: inline; }
   width: 100%;
   max-width: 600px;
 }
+
+.x2 {
+    zoom: 2;
+}
